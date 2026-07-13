@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0B1020,45:312E81,100:7C3AED&height=220&section=header&text=DEVIL&fontSize=74&fontColor=FFFFFF&animation=fadeIn&fontAlignY=38&desc=Mobile%20builder%20%E2%80%A2%20AI%20explorer%20%E2%80%A2%20web%20craftsperson&descAlignY=60&descSize=18" width="100%" alt="Devil — mobile builder, AI explorer, web craftsperson" />
+<img src="https://raw.githubusercontent.com/Devil1716/Devil1716/main/assets/scifi-console.svg" width="100%" alt="Devil developer command console" />
 
 <a href="https://github.com/Devil1716?tab=repositories"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=3200&pause=900&color=A78BFA&center=true&vCenter=true&width=650&lines=I+build+ideas+that+move.;Android+%2B+AI+%2B+high-signal+interfaces.;Scroll+down.+Pick+a+project.+Let%27s+make+something." alt="Animated introduction" /></a>
 
@@ -12,8 +12,11 @@
 <br />
 
 ```text
-> Building at the edge of mobile, AI, and the web.
-> Making useful things from ambitious ideas.
+[ DEVIL // BUILD PROTOCOL ]
+  SECTOR   : Android + AI + Web
+  SIGNAL   : Strong
+  MISSION  : Turn ambitious ideas into working systems
+  STATUS   : Shipping
 ```
 
 ## PRESS START // Choose your quest
