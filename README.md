@@ -65,6 +65,33 @@
 
 <br />
 
+## The grid moves too
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Devil1716/Devil1716/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Devil1716/Devil1716/output/github-contribution-grid-snake.svg" />
+  <img alt="Animated snake moving across the GitHub contribution graph" src="https://raw.githubusercontent.com/Devil1716/Devil1716/output/github-contribution-grid-snake-dark.svg" />
+</picture>
+
+<sub>Freshly generated from the contribution graph, every day.</sub>
+
+</div>
+
+<br />
+
+## Now building
+
+<div align="center">
+
+<a href="https://github.com/Devil1716/agent-phone-app"><img src="https://img.shields.io/badge/IN_FOCUS-Agent--first_Android_experiences-7C3AED?style=for-the-badge&logo=android&logoColor=white" alt="In focus: agent-first Android experiences" /></a>
+<a href="https://github.com/Devil1716?tab=repositories"><img src="https://img.shields.io/badge/NEXT_UP-More_tools._More_ships.-0D1117?style=for-the-badge&logo=rocket&logoColor=A78BFA" alt="Next up: more tools, more ships" /></a>
+
+</div>
+
+<br />
+
 <div align="center">
 
 ### Have an idea with a little edge to it?
