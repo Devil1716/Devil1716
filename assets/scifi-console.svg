@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
+  <title id="title">Devil developer command console</title>
+  <desc id="desc">A neon cyan and violet sci-fi interface for Devil's GitHub profile.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#050816"/>
+      <stop offset="0.55" stop-color="#11113a"/>
+      <stop offset="1" stop-color="#070b1f"/>
+    </linearGradient>
+    <linearGradient id="beam" x1="0" x2="1">
+      <stop stop-color="#38f5ff" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#38f5ff"/>
+      <stop offset="1" stop-color="#a855f7" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#5971c8" stroke-opacity=".13" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="320" rx="18" fill="url(#bg)"/>
+  <rect width="1200" height="320" rx="18" fill="url(#grid)"/>
+  <path d="M0 249C159 207 235 294 410 236S680 181 805 228s245 31 395-35" fill="none" stroke="#38f5ff" stroke-opacity=".22" stroke-width="2"/>
+  <path d="M0 265C159 223 235 310 410 252S680 197 805 244s245 31 395-35" fill="none" stroke="#a855f7" stroke-opacity=".16" stroke-width="1"/>
+  <g fill="none" stroke="#38f5ff" filter="url(#glow)">
+    <path d="M48 67h116l22 22v54l-22 22H48L26 143V89z" stroke-width="2"/>
+    <path d="M1018 60h132l24 24v148l-24 24h-132l-24-24V84z" stroke-width="2"/>
+    <path d="M55 75h101" stroke-width="1"/>
+    <path d="M1026 70h116" stroke-width="1"/>
+  </g>
+  <g fill="#38f5ff" font-family="monospace">
+    <text x="53" y="105" font-size="13" letter-spacing="2">SYSTEM</text>
+    <text x="53" y="128" font-size="17" font-weight="700">ONLINE</text>
+    <circle cx="157" cy="123" r="5" fill="#72ff9d"><animate attributeName="opacity" values="1;.25;1" dur="1.4s" repeatCount="indefinite"/></circle>
+    <text x="1036" y="99" font-size="11" letter-spacing="2">CORE STATUS</text>
+    <text x="1036" y="128" font-size="18" font-weight="700">V.26.07</text>
+    <text x="1036" y="157" font-size="11">ANDROID / AI / WEB</text>
+    <text x="1036" y="184" font-size="11">SIGNAL: STRONG</text>
+    <text x="1036" y="211" font-size="11">MODE: BUILD</text>
+  </g>
+  <g text-anchor="middle" font-family="monospace">
+    <text x="600" y="126" fill="#dffeff" font-size="58" font-weight="700" letter-spacing="10">DEVIL</text>
+    <text x="600" y="158" fill="#a7b5e9" font-size="14" letter-spacing="5">DEVELOPER COMMAND CONSOLE</text>
+  </g>
+  <rect x="275" y="190" width="650" height="2" fill="url(#beam)" filter="url(#glow)">
+    <animate attributeName="width" values="100;650;100" dur="3.2s" repeatCount="indefinite"/>
+    <animate attributeName="x" values="550;275;550" dur="3.2s" repeatCount="indefinite"/>
+  </rect>
+  <g fill="#a855f7" font-family="monospace" font-size="11" letter-spacing="2">
+    <text x="46" y="283">SECTOR 1716</text>
+    <text x="963" y="283">EST. NOW</text>
+  </g>
+</svg>
