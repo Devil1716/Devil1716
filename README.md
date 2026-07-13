@@ -16,7 +16,33 @@
 > Making useful things from ambitious ideas.
 ```
 
-## Pick a door
+## PRESS START // Choose your quest
+
+<div align="center">
+
+<a href="https://github.com/Devil1716/agent-phone-app"><img src="https://img.shields.io/badge/QUEST_01-Build_an_AI_phone_companion-7C3AED?style=for-the-badge&logo=android&logoColor=white" alt="Quest 01: Build an AI phone companion" /></a>
+<a href="https://github.com/Devil1716/isro-bah-challenge9-shwfs"><img src="https://img.shields.io/badge/QUEST_02-Reconstruct_a_wavefront-312E81?style=for-the-badge&logo=python&logoColor=white" alt="Quest 02: Reconstruct a wavefront" /></a>
+<a href="https://github.com/Devil1716/AgentIDE"><img src="https://img.shields.io/badge/QUEST_03-Forge_an_agent_workspace-111827?style=for-the-badge&logo=typescript&logoColor=white" alt="Quest 03: Forge an agent workspace" /></a>
+
+</div>
+
+<br />
+
+<details>
+  <summary><b>Open quest board</b></summary>
+  <br />
+
+  | Status | Mission | Reward |
+  | :-- | :-- | :-- |
+  | ACTIVE | Make Android devices feel more capable with local-first agent ideas. | Android + AI XP |
+  | COMPLETE | Build Bluetooth relays and TTL forwarding into a MANET demo. | Systems XP |
+  | COMPLETE | Explore reconstruction work for the ISRO BAH Challenge. | Research XP |
+  | ALWAYS ON | Turn a rough idea into something worth clicking. | Builder XP |
+</details>
+
+<br />
+
+## SELECT A PORTAL
 
 <div align="center">
 
@@ -33,14 +59,14 @@
 | :-- | :-- | :-- |
 | Agent-first Android apps, Bluetooth mesh networking, and practical Kotlin builds. | NLP experiments and wavefront reconstruction research. | Fast TypeScript dashboards and developer-focused experiences. |
 
-## Stack, selected with intent
+## LOADOUT // Selected with intent
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=kotlin,java,androidstudio,ts,nextjs,react,python,git,github&theme=dark" alt="Kotlin, Java, Android Studio, TypeScript, Next.js, React, Python, Git, GitHub" />
 </p>
 
 <details>
-  <summary><b>Open the build log</b></summary>
+  <summary><b>Open the quest log</b></summary>
   <br />
   <ul>
     <li><a href="https://github.com/Devil1716/agent-phone-app"><b>agent-phone-app</b></a> — a Gemma-first agent phone app for normal Android devices.</li>
@@ -50,7 +76,15 @@
   </ul>
 </details>
 
-## Signal, not noise
+## ACHIEVEMENTS UNLOCKED
+
+<div align="center">
+
+<img src="https://github-profile-trophy.vercel.app/?username=Devil1716&theme=algolia&no-frame=true&no-bg=true&column=6&margin-w=8" alt="GitHub profile trophies" width="100%" />
+
+</div>
+
+## PLAYER STATS
 
 <div align="center">
 
@@ -65,7 +99,7 @@
 
 <br />
 
-## The grid moves too
+## BONUS LEVEL // The grid moves
 
 <div align="center">
 
@@ -81,7 +115,7 @@
 
 <br />
 
-## Now building
+## CURRENT RUN
 
 <div align="center">
 
