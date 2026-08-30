@@ -1,11 +1,17 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="680" height="8" viewBox="0 0 680 8" role="img" aria-hidden="true">
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="18" viewBox="0 0 680 18" role="img" aria-hidden="true">
   <defs>
-    <linearGradient id="d" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0"/>
-      <stop offset="45%" stop-color="#22d3ee" stop-opacity="0.9"/>
-      <stop offset="55%" stop-color="#8b5cf6" stop-opacity="0.9"/>
-      <stop offset="100%" stop-color="#8b5cf6" stop-opacity="0"/>
+    <linearGradient id="starline" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#7dd3fc" stop-opacity="0"/>
+      <stop offset="35%" stop-color="#7dd3fc" stop-opacity="0.7"/>
+      <stop offset="50%" stop-color="#a78bfa" stop-opacity="0.85"/>
+      <stop offset="65%" stop-color="#7dd3fc" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#a78bfa" stop-opacity="0"/>
     </linearGradient>
   </defs>
-  <rect x="0" y="3" width="680" height="2" fill="url(#d)"/>
+  <line x1="24" y1="9" x2="656" y2="9" stroke="url(#starline)" stroke-width="1"/>
+  <circle cx="120" cy="9" r="1.1" fill="#7dd3fc" opacity="0.7"/>
+  <circle cx="560" cy="9" r="1.1" fill="#a78bfa" opacity="0.7"/>
+  <path d="M340 3.5 L341.6 7.4 L346 9 L341.6 10.6 L340 14.5 L338.4 10.6 L334 9 L338.4 7.4 Z" fill="#7dd3fc">
+    <animate attributeName="opacity" values="0.55;1;0.55" dur="3.4s" repeatCount="indefinite"/>
+  </path>
 </svg>
