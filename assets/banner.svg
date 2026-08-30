@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 128" role="img" aria-labelledby="title desc">
+  <title id="title">Sharan S</title>
+  <desc id="desc">Agentic systems, Android, and backend.</desc>
+  <defs>
+    <style>
+      .panel { fill: #161B22; }
+      .edge { stroke: #30363D; }
+      .name { fill: #E6EDF3; }
+      .role { fill: #8B949E; }
+      .rule { stroke: #6E8598; }
+      @media (prefers-color-scheme: light) {
+        .panel { fill: #F6F8FA; }
+        .edge { stroke: #D0D7DE; }
+        .name { fill: #1F2328; }
+        .role { fill: #656D76; }
+        .rule { stroke: #6E8598; }
+      }
+    </style>
+  </defs>
+  <rect class="panel edge" x="0.5" y="0.5" width="959" height="127" rx="8" fill="#161B22" stroke="#30363D" stroke-width="1"/>
+  <line class="rule" x1="48" y1="78" x2="132" y2="78" stroke="#6E8598" stroke-width="1.5"/>
+  <text class="name" x="48" y="64" fill="#E6EDF3" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="34" font-weight="600" letter-spacing="-0.3">Sharan S</text>
+  <text class="role" x="48" y="102" fill="#8B949E" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="400">Agentic systems · Android · backend</text>
+</svg>
