@@ -31,38 +31,26 @@ Open to remote Backend / Agentic AI internships
 <table>
   <tr>
     <td width="50%" align="center" valign="top">
-      <a href="https://github.com/Devil1716/agent-phone-app"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Devil1716&repo=agent-phone-app&bg_color=07080d&title_color=22d3ee&icon_color=8b5cf6&text_color=c9d1d9&hide_border=true" alt="agent-phone-app" /></a>
-      <br />
-      <sub>On-device Gemma agent for normal Android phones.</sub>
+      <a href="https://github.com/Devil1716/agent-phone-app"><img src="./assets/cards/agent-phone-app.svg" width="100%" alt="agent-phone-app" /></a>
     </td>
     <td width="50%" align="center" valign="top">
-      <a href="https://github.com/Devil1716/drapesense"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Devil1716&repo=drapesense&bg_color=07080d&title_color=22d3ee&icon_color=8b5cf6&text_color=c9d1d9&hide_border=true" alt="drapesense" /></a>
-      <br />
-      <sub>Fabric scanner: camera swatch → drape, yardage, cutting diagram.</sub>
+      <a href="https://github.com/Devil1716/drapesense"><img src="./assets/cards/drapesense.svg" width="100%" alt="drapesense" /></a>
     </td>
   </tr>
   <tr>
     <td width="50%" align="center" valign="top">
-      <a href="https://github.com/Devil1716/bluetooth-manet-android"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Devil1716&repo=bluetooth-manet-android&bg_color=07080d&title_color=22d3ee&icon_color=8b5cf6&text_color=c9d1d9&hide_border=true" alt="bluetooth-manet-android" /></a>
-      <br />
-      <sub>Bluetooth MANET demo — RFCOMM relay + TTL forwarding.</sub>
+      <a href="https://github.com/Devil1716/bluetooth-manet-android"><img src="./assets/cards/bluetooth-manet-android.svg" width="100%" alt="bluetooth-manet-android" /></a>
     </td>
     <td width="50%" align="center" valign="top">
-      <a href="https://github.com/Devil1716/kosh"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Devil1716&repo=kosh&bg_color=07080d&title_color=22d3ee&icon_color=8b5cf6&text_color=c9d1d9&hide_border=true" alt="kosh" /></a>
-      <br />
-      <sub>Offline pocket ledger for daily income and spending.</sub>
+      <a href="https://github.com/Devil1716/kosh"><img src="./assets/cards/kosh.svg" width="100%" alt="kosh" /></a>
     </td>
   </tr>
   <tr>
     <td width="50%" align="center" valign="top">
-      <a href="https://github.com/Devil1716/isro-bah-challenge9-shwfs"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Devil1716&repo=isro-bah-challenge9-shwfs&bg_color=07080d&title_color=22d3ee&icon_color=8b5cf6&text_color=c9d1d9&hide_border=true" alt="isro-bah-challenge9-shwfs" /></a>
-      <br />
-      <sub>Shack-Hartmann wavefront reconstruction — ISRO BAH Challenge 9.</sub>
+      <a href="https://github.com/Devil1716/isro-bah-challenge9-shwfs"><img src="./assets/cards/isro-bah-challenge9-shwfs.svg" width="100%" alt="isro-bah-challenge9-shwfs" /></a>
     </td>
     <td width="50%" align="center" valign="top">
-      <a href="https://github.com/Devil1716/AgentIDE"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Devil1716&repo=AgentIDE&bg_color=07080d&title_color=22d3ee&icon_color=8b5cf6&text_color=c9d1d9&hide_border=true" alt="AgentIDE" /></a>
-      <br />
-      <sub>Agent workspace experiment.</sub>
+      <a href="https://github.com/Devil1716/AgentIDE"><img src="./assets/cards/agentide.svg" width="100%" alt="AgentIDE" /></a>
     </td>
   </tr>
 </table>
@@ -79,9 +67,9 @@ Open to remote Backend / Agentic AI internships
 
 <img src="./assets/label-stats.svg" width="200" alt="Stats" />
 
-<img src="https://github-readme-stats.vercel.app/api?username=Devil1716&show_icons=true&hide_border=true&bg_color=07080d&title_color=22d3ee&icon_color=8b5cf6&text_color=c9d1d9" height="165" alt="GitHub stats" />
+<img src="https://github-readme-stats-one-bice.vercel.app/api?username=Devil1716&show_icons=true&hide_border=true&bg_color=07080d&title_color=22d3ee&icon_color=8b5cf6&text_color=c9d1d9" height="165" alt="GitHub stats" />
 <img src="https://streak-stats.demolab.com?user=Devil1716&hide_border=true&background=07080d&ring=22d3ee&fire=8b5cf6&currStreakNum=22d3ee&sideNums=c9d1d9&currStreakLabel=8b5cf6&sideLabels=c9d1d9&dates=8b949e&stroke=07080d" height="165" alt="Contribution streak" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Devil1716&layout=compact&hide_border=true&bg_color=07080d&title_color=22d3ee&text_color=c9d1d9" height="165" alt="Top languages" />
+<img src="https://github-readme-stats-one-bice.vercel.app/api/top-langs/?username=Devil1716&layout=compact&hide_border=true&bg_color=07080d&title_color=22d3ee&text_color=c9d1d9" height="165" alt="Top languages" />
 
 <img src="https://activity-graph.vercel.app/graph?username=Devil1716&bg_color=07080d&color=c9d1d9&line=22d3ee&point=8b5cf6&area=true&hide_border=true" width="100%" alt="Contribution activity graph" />
 
