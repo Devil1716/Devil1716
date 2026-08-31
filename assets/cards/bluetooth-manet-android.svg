@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="132" viewBox="0 0 500 132" role="img" aria-label="bluetooth-manet-android">
+  <defs>
+    <radialGradient id="c2glow" cx="12%" cy="20%" r="70%">
+      <stop offset="0%" stop-color="#7dd3fc" stop-opacity="0.10"/>
+      <stop offset="100%" stop-color="#7dd3fc" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="c2violet" cx="88%" cy="80%" r="55%">
+      <stop offset="0%" stop-color="#a78bfa" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#a78bfa" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect x="0.6" y="0.6" width="498.8" height="130.8" rx="10" fill="#070B14"/>
+  <rect x="0.6" y="0.6" width="498.8" height="130.8" rx="10" fill="url(#c2glow)"/>
+  <rect x="0.6" y="0.6" width="498.8" height="130.8" rx="10" fill="url(#c2violet)"/>
+  <rect x="0.6" y="0.6" width="498.8" height="130.8" rx="10" fill="none" stroke="#7dd3fc" stroke-opacity="0.42" stroke-width="1.2"/>
+  <circle cx="30" cy="22" r="0.9" fill="#e2e8f0" opacity="0.35"/>
+    <circle cx="108" cy="16" r="0.9" fill="#e2e8f0" opacity="0.35"/>
+    <circle cx="196" cy="28" r="0.9" fill="#e2e8f0" opacity="0.35"/>
+    <circle cx="288" cy="18" r="0.9" fill="#e2e8f0" opacity="0.35"/>
+    <circle cx="360" cy="26" r="0.9" fill="#e2e8f0" opacity="0.35"/>
+    <circle cx="444" cy="14" r="0.9" fill="#e2e8f0" opacity="0.35"/>
+    <circle cx="482" cy="30" r="0.9" fill="#e2e8f0" opacity="0.35"/>
+  <path d="M472 16 L473.5 20.2 L478 22 L473.5 23.8 L472 28 L470.5 23.8 L466 22 L470.5 20.2 Z" fill="#7dd3fc" opacity="0.9"/>
+  <text x="22" y="48" fill="#e2e8f0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15" font-weight="700">bluetooth-manet-android</text>
+  <text x="22" y="76" fill="#94a3b8" font-family="Inter, ui-sans-serif, system-ui, Segoe UI, sans-serif" font-size="13">Bluetooth MANET demo, RFCOMM relay + TTL forwarding.</text>
+  <circle cx="28" cy="106" r="4.5" fill="#b07219"/>
+  <text x="40" y="110" fill="#cbd5e1" font-family="Inter, ui-sans-serif, system-ui, Segoe UI, sans-serif" font-size="12">Java</text>
+</svg>
