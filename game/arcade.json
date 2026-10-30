@@ -1,11 +1,6 @@
 {
- "cheerers": {
-  "Devil1716": 2
- },
- "cheers": {
-  "Devil1716|CognyxOS": "2026-10-30",
-  "Devil1716|kosh": "2026-10-30"
- },
+ "cheerers": {},
+ "cheers": {},
  "inspect": {
   "date": "2026-08-21",
   "desc": "CognyxOS engineering foundation and platform architecture",
@@ -41,12 +36,7 @@
   "stars": 0,
   "url": "https://github.com/Devil1716/CognyxOS"
  },
- "log": [
-  "@Devil1716 inspected CognyxOS",
-  "@Devil1716 cheered CognyxOS",
-  "@Devil1716 cheered kosh",
-  "@Devil1716 hit OFFLINE LLM"
- ],
+ "log": [],
  "stars": {
   "AgentIDE": 0,
   "CognyxOS": 0,
@@ -61,14 +51,7 @@
   "plot-ledger": 0,
   "quicko-microservices": 0
  },
- "voters": {
-  "Devil1716": "offline"
- },
- "votes": {
-  "offline": 1
- },
- "xp": {
-  "CognyxOS": 10,
-  "kosh": 10
- }
+ "voters": {},
+ "votes": {},
+ "xp": {}
 }

@@ -62,7 +62,7 @@
 <img src="./assets/arcade/radar.svg" width="100%" alt="Commit radar: Sharan's latest public GitHub activity" />
 
 <details><summary><b>📜 ARCADE LOG</b></summary>
-<ul><li>@Devil1716 hit OFFLINE LLM</li><li>@Devil1716 cheered kosh</li><li>@Devil1716 cheered CognyxOS</li><li>@Devil1716 inspected CognyxOS</li></ul>
+<ul><li>No moves yet.</li></ul>
 </details>
 <!--ARCADE:END-->
 
