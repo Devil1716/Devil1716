@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/hero-space.png" width="100%" alt="Sharan S — @Devil1716 — agentic systems · Android · backend — Bengaluru" />
+<img src="./assets/hero-room.gif" width="100%" alt="Sharan S (@Devil1716) coding in a pixel art room at night" />
 
 <a href="https://github.com/Devil1716?tab=repositories"><img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=22&duration=3200&pause=1000&color=7DD3FC&center=true&vCenter=true&width=780&lines=I+build+agents+that+run+on+real+devices.;Android+%C2%B7+FastAPI+%C2%B7+LLMs+%C2%B7+MCP.;Open+to+remote+Backend+%2F+Agentic+AI+internships." alt="I build agents that run on real devices." /></a>
 
