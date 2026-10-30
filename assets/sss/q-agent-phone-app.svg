@@ -9,12 +9,13 @@
 <text x="460" y="54" fill="#facc15" font-size="22" font-weight="bold" text-anchor="end" class="glow">S</text>
 <text x="136" y="82" fill="#e2e8f0" font-size="24" font-weight="bold">agent-phone-app</text>
 <text x="136" y="108" fill="#39d353" font-size="13">Gemma first agent phone app</text>
-<text x="28" y="150" fill="#e2e8f0" font-size="15" opacity=".85">On device agent driving a real phone.</text>
+<text x="28" y="150" fill="#e2e8f0" font-size="15" opacity=".85">Agent that drives a real phone.</text>
 <rect x="28" y="170" width="70" height="24" fill="#0e0b2b" stroke="#39d353" stroke-width="1.5"/><text x="37" y="187" fill="#39d353" font-size="13">Kotlin</text>
 <rect x="105.6" y="170" width="61" height="24" fill="#0e0b2b" stroke="#39d353" stroke-width="1.5"/><text x="114.6" y="187" fill="#39d353" font-size="13">Gemma</text>
 <rect x="174.6" y="170" width="78" height="24" fill="#0e0b2b" stroke="#39d353" stroke-width="1.5"/><text x="183.6" y="187" fill="#39d353" font-size="13">Android</text>
 <text x="28" y="222" fill="#7c7aa8" font-size="12">XP</text><rect x="56" y="212" width="300" height="12" fill="#0e0b2b" stroke="#7c7aa8"/>
 <rect x="58" y="214" width="251" height="8" fill="#39d353"><animate attributeName="width" values="0;251" dur="1.6s"/></rect>
 <text x="460" y="223" fill="#ff4fd8" font-size="13" text-anchor="end">▶ PLAY</text>
+<text x="460" y="150" fill="#facc15" font-size="12" text-anchor="end">★ 0  ·  2026-04-16</text>
 <rect width="490" height="250" fill="url(#scan)" pointer-events="none"/>
 </svg>

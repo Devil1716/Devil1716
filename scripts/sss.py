@@ -165,7 +165,7 @@ def sprite(name, x, y, px, color):
     return "".join(f'<rect x="{x+c*px}" y="{y+r*px}" width="{px}" height="{px}" fill="{color}"/>'
                    for r, row in enumerate(SPRITES[name]) for c, ch in enumerate(row) if ch == "#")
 
-def card(name, icon, color, rank, line1, line2, tags, lvl):
+def card(name, icon, color, rank, line1, line2, tags, lvl, live=None):
     W, H = 490, 250
     b = [frame(W, H, color, PURP),
          f'<rect x="28" y="30" width="88" height="88" fill="{PANEL}" stroke="{color}" stroke-width="2"/>',
@@ -183,14 +183,21 @@ def card(name, icon, color, rank, line1, line2, tags, lvl):
     b.append(f'<text x="28" y="222" fill="{DIM}" font-size="12">XP</text><rect x="56" y="212" width="300" height="12" fill="{PANEL}" stroke="{DIM}"/>')
     b.append(f'<rect x="58" y="214" width="{int(296*lvl)}" height="8" fill="{GRN}"><animate attributeName="width" values="0;{int(296*lvl)}" dur="1.6s"/></rect>')
     b.append(f'<text x="{W-30}" y="223" fill="{PINK}" font-size="13" text-anchor="end">▶ PLAY</text>')
+    if live: b.append(f'<text x="{W-30}" y="150" fill="{YEL}" font-size="12" text-anchor="end">★ {live[0]}  ·  {live[1]}</text>')
     return svg(W, H, "\n".join(b))
 
-def chip(name, lang, color):
+def live(name):
+    try:
+        r = gh(f"https://api.github.com/repos/{USER}/{name}")
+        return (r["stargazers_count"], r["pushed_at"][:10])
+    except Exception: return None
+
+def chip(name, lang, color, live=None):
     W, H = 320, 60
     b = [f'<rect x="2" y="2" width="{W-4}" height="{H-4}" fill="{BG}" stroke="{color}" stroke-width="3"/>',
          f'<rect x="14" y="22" width="16" height="16" fill="{color}"/>',
          f'<text x="42" y="30" fill="{TXT}" font-size="15" font-weight="bold">{esc(name)}</text>',
-         f'<text x="42" y="47" fill="{DIM}" font-size="12">SIDE QUEST · {esc(lang)}</text>',
+         f'<text x="42" y="47" fill="{DIM}" font-size="12">{esc(lang[:10])} · ★ {live[0] if live else 0} · {live[1] if live else ""}</text>',
          f'<text x="{W-16}" y="36" fill="{color}" font-size="16" text-anchor="end">›</text>']
     return svg(W, H, "\n".join(b))
 
@@ -242,7 +249,7 @@ def footer(st):
     W, H = 1000, 170
     b = [frame(W, H, PINK, CYAN),
          f'<text x="{W/2}" y="68" fill="{PINK}" font-size="34" font-weight="bold" text-anchor="middle" letter-spacing="6" class="glow">PRESS START<animate attributeName="opacity" values="1;1;0;0" dur="1.2s" repeatCount="indefinite"/></text>',
-         f'<text x="{W/2}" y="104" fill="{TXT}" font-size="15" text-anchor="middle">INSERT COIN to play Connect Four with player 1</text>',
+         f'<text x="{W/2}" y="104" fill="{TXT}" font-size="15" text-anchor="middle">INSERT COIN: inspect, cheer and raid player 1\'s repos</text>',
          f'<text x="40" y="146" fill="{YEL}" font-size="13">CREDITS {st["commits"]}</text>',
          f'<text x="{W/2}" y="146" fill="{DIM}" font-size="13" text-anchor="middle">↑ ↑ ↓ ↓ ← → ← → B A</text>',
          f'<text x="{W-40}" y="146" fill="{CYAN}" font-size="13" text-anchor="end">HI SCORE SHARAN</text>',
@@ -322,18 +329,18 @@ def inv_tile(ab, nm, c, i):
 def main():
     st = stats()
     (OUT/"hero-fetch.svg").write_text(hero(st))
-    for name, n, c in [("WHOAMI", 1, CYAN), ("CURRENT QUEST", 2, PINK), ("MAIN QUESTS", 3, PURP), ("ACHIEVEMENTS", 4, YEL), ("INVENTORY", 5, GRN), ("ARCADE", 6, CYAN), ("BATTLE LOG", 7, PURP)]:
+    for name, n, c in [("WHOAMI", 1, CYAN), ("CURRENT QUEST", 2, PINK), ("MAIN QUESTS", 3, PURP), ("ACHIEVEMENTS", 4, YEL), ("INVENTORY", 5, GRN), ("REPO ARCADE", 6, CYAN), ("BATTLE LOG", 7, PURP)]:
         (OUT/f"h-{n}.svg").write_text(header(name, n, c))
     cards = [
         ("CognyxOS", "chip", PURP, "S", "an operating layer for AI agents", "Agents that plan, act and recover.", ["Python","Agents","LLMs"], .9),
-        ("agent-phone-app", "phone", GRN, "S", "Gemma first agent phone app", "On device agent driving a real phone.", ["Kotlin","Gemma","Android"], .85),
+        ("agent-phone-app", "phone", GRN, "S", "Gemma first agent phone app", "Agent that drives a real phone.", ["Kotlin","Gemma","Android"], .85),
         ("AgentIDE", "code", CYAN, "A", "an IDE where agents write the code", "Agent native editor with live runs.", ["TypeScript","MCP","React"], .75),
         ("BubbleLab", "brain", PINK, "A", "workflow automation for developers", "Open source flows you can export.", ["TypeScript","Workflows","OSS"], .7),
     ]
-    for c in cards: (OUT/f"q-{c[0]}.svg").write_text(card(*c))
+    for c in cards: (OUT/f"q-{c[0]}.svg").write_text(card(*c, live=live(c[0])))
     for n, l, c in [("arbor-dashboard","TypeScript","#3178c6"),("isro-bah-challenge9-shwfs","Python","#3776ab"),("quicko-microservices","Microservices","#e34c26"),
                     ("drapesense","JavaScript","#f1e05a"),("kosh","Dart","#0175c2"),("bluetooth-manet-android","Kotlin","#a97bff")]:
-        (OUT/f"s-{n}.svg").write_text(chip(n, l, c))
+        (OUT/f"s-{n}.svg").write_text(chip(n, l, c, live(n)))
     (OUT/"footer.svg").write_text(footer(st))
     for i in range(3): (OUT/f"ach-{i+1}.svg").write_text(ach_item(i))
     for i,(ab,nm,c,_) in enumerate(INV): (OUT/f"inv-{ab}.svg").write_text(inv_tile(ab,nm,c,i))

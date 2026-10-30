@@ -34,23 +34,37 @@
 <a href="https://www.python.org"><img src="./assets/sss/inv-PY.svg" width="11.5%" alt="Python" /></a> <a href="https://kotlinlang.org"><img src="./assets/sss/inv-KT.svg" width="11.5%" alt="Kotlin" /></a> <a href="https://www.typescriptlang.org"><img src="./assets/sss/inv-TS.svg" width="11.5%" alt="TypeScript" /></a> <a href="https://fastapi.tiangolo.com"><img src="./assets/sss/inv-FA.svg" width="11.5%" alt="FastAPI" /></a> <a href="https://developer.android.com"><img src="./assets/sss/inv-AN.svg" width="11.5%" alt="Android" /></a> <a href="https://www.docker.com"><img src="./assets/sss/inv-DK.svg" width="11.5%" alt="Docker" /></a> <a href="https://react.dev"><img src="./assets/sss/inv-RE.svg" width="11.5%" alt="React" /></a> <a href="https://huggingface.co"><img src="./assets/sss/inv-LL.svg" width="11.5%" alt="LLMs" /></a>
 <a href="https://modelcontextprotocol.io"><img src="./assets/sss/inv-MC.svg" width="11.5%" alt="MCP" /></a> <a href="https://onnx.ai"><img src="./assets/sss/inv-ON.svg" width="11.5%" alt="ONNX" /></a> <a href="https://pytorch.org"><img src="./assets/sss/inv-PT.svg" width="11.5%" alt="PyTorch" /></a> <a href="https://dart.dev"><img src="./assets/sss/inv-DT.svg" width="11.5%" alt="Dart" /></a> <a href="https://www.postgresql.org"><img src="./assets/sss/inv-PG.svg" width="11.5%" alt="Postgres" /></a> <a href="https://git-scm.com"><img src="./assets/sss/inv-GT.svg" width="11.5%" alt="Git" /></a> <a href="https://kernel.org"><img src="./assets/sss/inv-LX.svg" width="11.5%" alt="Linux" /></a> <a href="https://cloud.google.com"><img src="./assets/sss/inv-GC.svg" width="11.5%" alt="GCP" /></a>
 
-<img src="./assets/sss/h-6.svg" width="100%" alt="Stage 06 arcade" />
+<img src="./assets/sss/h-6.svg" width="100%" alt="Stage 06 repo arcade" />
 
-<!--C4:START-->
+<!--ARCADE:START-->
 <a id="arcade"></a>
-<a href="https://github.com/Devil1716/Devil1716/issues/new?title=c4%7Cmove%7C1&body=Just+press+Submit+new+issue.+The+arcade+bot+plays+your+move."><img src="./assets/game/col-1.svg" width="8.6%" alt="Drop in column 1" /></a> <a href="https://github.com/Devil1716/Devil1716/issues/new?title=c4%7Cmove%7C2&body=Just+press+Submit+new+issue.+The+arcade+bot+plays+your+move."><img src="./assets/game/col-2.svg" width="8.6%" alt="Drop in column 2" /></a> <a href="https://github.com/Devil1716/Devil1716/issues/new?title=c4%7Cmove%7C3&body=Just+press+Submit+new+issue.+The+arcade+bot+plays+your+move."><img src="./assets/game/col-3.svg" width="8.6%" alt="Drop in column 3" /></a> <a href="https://github.com/Devil1716/Devil1716/issues/new?title=c4%7Cmove%7C4&body=Just+press+Submit+new+issue.+The+arcade+bot+plays+your+move."><img src="./assets/game/col-4.svg" width="8.6%" alt="Drop in column 4" /></a> <a href="https://github.com/Devil1716/Devil1716/issues/new?title=c4%7Cmove%7C5&body=Just+press+Submit+new+issue.+The+arcade+bot+plays+your+move."><img src="./assets/game/col-5.svg" width="8.6%" alt="Drop in column 5" /></a> <a href="https://github.com/Devil1716/Devil1716/issues/new?title=c4%7Cmove%7C6&body=Just+press+Submit+new+issue.+The+arcade+bot+plays+your+move."><img src="./assets/game/col-6.svg" width="8.6%" alt="Drop in column 6" /></a> <a href="https://github.com/Devil1716/Devil1716/issues/new?title=c4%7Cmove%7C7&body=Just+press+Submit+new+issue.+The+arcade+bot+plays+your+move."><img src="./assets/game/col-7.svg" width="8.6%" alt="Drop in column 7" /></a>
 
-<img src="./assets/game/board.svg" width="70%" alt="Connect Four board" />
+<img src="./assets/arcade/inspect.svg" width="100%" alt="Inspect card for CognyxOS" />
 
-It is <b>PINK</b>'s turn. Click a column above, then press Submit. <a href="https://github.com/Devil1716/Devil1716/issues/new?title=c4%7Cnew&body=Just+press+Submit+new+issue."><img src="./assets/game/new.svg" height="40" alt="New game" /></a>
+<a href="https://github.com/Devil1716/CognyxOS"><img src="./assets/arcade/star.svg" height="40" alt="Star to grant +100 XP" /></a>
 
-<details><summary><b>LAST MOVES and HIGH SCORES</b></summary>
+<b>REPO QUEST</b>: pick a repo, press Submit, and its live card loads here.
 
-<table><tr><th>Disc</th><th>Move</th><th>Player</th></tr><tr><td colspan="3">No moves yet. Be the first.</td></tr></table>
+<a href="https://github.com/Devil1716/Devil1716/issues/new?title=gh%7Cinspect%7CCognyxOS&body=Just+press+Submit+new+issue.+The+arcade+bot+does+the+rest."><img src="./assets/arcade/r-CognyxOS.svg" width="24%" alt="Inspect CognyxOS" /></a> <a href="https://github.com/Devil1716/Devil1716/issues/new?title=gh%7Cinspect%7Cagent-phone-app&body=Just+press+Submit+new+issue.+The+arcade+bot+does+the+rest."><img src="./assets/arcade/r-agent-phone-app.svg" width="24%" alt="Inspect agent-phone-app" /></a> <a href="https://github.com/Devil1716/Devil1716/issues/new?title=gh%7Cinspect%7CAgentIDE&body=Just+press+Submit+new+issue.+The+arcade+bot+does+the+rest."><img src="./assets/arcade/r-AgentIDE.svg" width="24%" alt="Inspect AgentIDE" /></a> <a href="https://github.com/Devil1716/Devil1716/issues/new?title=gh%7Cinspect%7Carbor-dashboard&body=Just+press+Submit+new+issue.+The+arcade+bot+does+the+rest."><img src="./assets/arcade/r-arbor-dashboard.svg" width="24%" alt="Inspect arbor-dashboard" /></a> <a href="https://github.com/Devil1716/Devil1716/issues/new?title=gh%7Cinspect%7Cisro-bah-challenge9-shwfs&body=Just+press+Submit+new+issue.+The+arcade+bot+does+the+rest."><img src="./assets/arcade/r-isro-bah-challenge9-shwfs.svg" width="24%" alt="Inspect isro-bah-challenge9-shwfs" /></a> <a href="https://github.com/Devil1716/Devil1716/issues/new?title=gh%7Cinspect%7Cquicko-microservices&body=Just+press+Submit+new+issue.+The+arcade+bot+does+the+rest."><img src="./assets/arcade/r-quicko-microservices.svg" width="24%" alt="Inspect quicko-microservices" /></a> <a href="https://github.com/Devil1716/Devil1716/issues/new?title=gh%7Cinspect%7Cdrapesense&body=Just+press+Submit+new+issue.+The+arcade+bot+does+the+rest."><img src="./assets/arcade/r-drapesense.svg" width="24%" alt="Inspect drapesense" /></a> <a href="https://github.com/Devil1716/Devil1716/issues/new?title=gh%7Cinspect%7Ckosh&body=Just+press+Submit+new+issue.+The+arcade+bot+does+the+rest."><img src="./assets/arcade/r-kosh.svg" width="24%" alt="Inspect kosh" /></a> <a href="https://github.com/Devil1716/Devil1716/issues/new?title=gh%7Cinspect%7Cbluetooth-manet-android&body=Just+press+Submit+new+issue.+The+arcade+bot+does+the+rest."><img src="./assets/arcade/r-bluetooth-manet-android.svg" width="24%" alt="Inspect bluetooth-manet-android" /></a> <a href="https://github.com/Devil1716/Devil1716/issues/new?title=gh%7Cinspect%7Cplot-ledger&body=Just+press+Submit+new+issue.+The+arcade+bot+does+the+rest."><img src="./assets/arcade/r-plot-ledger.svg" width="24%" alt="Inspect plot-ledger" /></a> <a href="https://github.com/Devil1716/Devil1716/issues/new?title=gh%7Cinspect%7CHackerRank-Orchestrator&body=Just+press+Submit+new+issue.+The+arcade+bot+does+the+rest."><img src="./assets/arcade/r-HackerRank-Orchestrator.svg" width="24%" alt="Inspect HackerRank-Orchestrator" /></a> <a href="https://github.com/Devil1716/Devil1716/issues/new?title=gh%7Cinspect%7Copen-bugbot&body=Just+press+Submit+new+issue.+The+arcade+bot+does+the+rest."><img src="./assets/arcade/r-open-bugbot.svg" width="24%" alt="Inspect open-bugbot" /></a>
 
-<table><tr><th>#</th><th>Player</th><th>Moves</th></tr><tr><td colspan="3">Leaderboard is empty.</td></tr></table>
+<a id="levelup"></a><img src="./assets/arcade/xp.svg" width="100%" alt="Level up board: most cheered repos and top cheerers" />
+
+<details><summary><b>⬆ CHEER A REPO (+10 XP, once a day each)</b></summary>
+<br />
+
+<a href="https://github.com/Devil1716/Devil1716/issues/new?title=gh%7Ccheer%7CCognyxOS&body=Just+press+Submit+new+issue.+The+arcade+bot+does+the+rest."><img src="./assets/arcade/c-CognyxOS.svg" width="24%" alt="Cheer CognyxOS" /></a> <a href="https://github.com/Devil1716/Devil1716/issues/new?title=gh%7Ccheer%7Cagent-phone-app&body=Just+press+Submit+new+issue.+The+arcade+bot+does+the+rest."><img src="./assets/arcade/c-agent-phone-app.svg" width="24%" alt="Cheer agent-phone-app" /></a> <a href="https://github.com/Devil1716/Devil1716/issues/new?title=gh%7Ccheer%7CAgentIDE&body=Just+press+Submit+new+issue.+The+arcade+bot+does+the+rest."><img src="./assets/arcade/c-AgentIDE.svg" width="24%" alt="Cheer AgentIDE" /></a> <a href="https://github.com/Devil1716/Devil1716/issues/new?title=gh%7Ccheer%7Carbor-dashboard&body=Just+press+Submit+new+issue.+The+arcade+bot+does+the+rest."><img src="./assets/arcade/c-arbor-dashboard.svg" width="24%" alt="Cheer arbor-dashboard" /></a> <a href="https://github.com/Devil1716/Devil1716/issues/new?title=gh%7Ccheer%7Cisro-bah-challenge9-shwfs&body=Just+press+Submit+new+issue.+The+arcade+bot+does+the+rest."><img src="./assets/arcade/c-isro-bah-challenge9-shwfs.svg" width="24%" alt="Cheer isro-bah-challenge9-shwfs" /></a> <a href="https://github.com/Devil1716/Devil1716/issues/new?title=gh%7Ccheer%7Cquicko-microservices&body=Just+press+Submit+new+issue.+The+arcade+bot+does+the+rest."><img src="./assets/arcade/c-quicko-microservices.svg" width="24%" alt="Cheer quicko-microservices" /></a> <a href="https://github.com/Devil1716/Devil1716/issues/new?title=gh%7Ccheer%7Cdrapesense&body=Just+press+Submit+new+issue.+The+arcade+bot+does+the+rest."><img src="./assets/arcade/c-drapesense.svg" width="24%" alt="Cheer drapesense" /></a> <a href="https://github.com/Devil1716/Devil1716/issues/new?title=gh%7Ccheer%7Ckosh&body=Just+press+Submit+new+issue.+The+arcade+bot+does+the+rest."><img src="./assets/arcade/c-kosh.svg" width="24%" alt="Cheer kosh" /></a> <a href="https://github.com/Devil1716/Devil1716/issues/new?title=gh%7Ccheer%7Cbluetooth-manet-android&body=Just+press+Submit+new+issue.+The+arcade+bot+does+the+rest."><img src="./assets/arcade/c-bluetooth-manet-android.svg" width="24%" alt="Cheer bluetooth-manet-android" /></a> <a href="https://github.com/Devil1716/Devil1716/issues/new?title=gh%7Ccheer%7Cplot-ledger&body=Just+press+Submit+new+issue.+The+arcade+bot+does+the+rest."><img src="./assets/arcade/c-plot-ledger.svg" width="24%" alt="Cheer plot-ledger" /></a> <a href="https://github.com/Devil1716/Devil1716/issues/new?title=gh%7Ccheer%7CHackerRank-Orchestrator&body=Just+press+Submit+new+issue.+The+arcade+bot+does+the+rest."><img src="./assets/arcade/c-HackerRank-Orchestrator.svg" width="24%" alt="Cheer HackerRank-Orchestrator" /></a> <a href="https://github.com/Devil1716/Devil1716/issues/new?title=gh%7Ccheer%7Copen-bugbot&body=Just+press+Submit+new+issue.+The+arcade+bot+does+the+rest."><img src="./assets/arcade/c-open-bugbot.svg" width="24%" alt="Cheer open-bugbot" /></a>
 </details>
-<!--C4:END-->
+
+<img src="./assets/arcade/raid.svg" width="100%" alt="Boss raid poll: what Sharan builds next" />
+
+<a href="https://github.com/Devil1716/Devil1716/issues/new?title=gh%7Cvote%7Cvoice&body=Just+press+Submit+new+issue.+The+arcade+bot+does+the+rest."><img src="./assets/arcade/v-voice.svg" width="24%" alt="Hit VOICE AGENT" /></a> <a href="https://github.com/Devil1716/Devil1716/issues/new?title=gh%7Cvote%7Cmcp&body=Just+press+Submit+new+issue.+The+arcade+bot+does+the+rest."><img src="./assets/arcade/v-mcp.svg" width="24%" alt="Hit MCP TOOLBELT" /></a> <a href="https://github.com/Devil1716/Devil1716/issues/new?title=gh%7Cvote%7Cide&body=Just+press+Submit+new+issue.+The+arcade+bot+does+the+rest."><img src="./assets/arcade/v-ide.svg" width="24%" alt="Hit AGENTIDE V2" /></a> <a href="https://github.com/Devil1716/Devil1716/issues/new?title=gh%7Cvote%7Coffline&body=Just+press+Submit+new+issue.+The+arcade+bot+does+the+rest."><img src="./assets/arcade/v-offline.svg" width="24%" alt="Hit OFFLINE LLM" /></a>
+
+<img src="./assets/arcade/radar.svg" width="100%" alt="Commit radar: Sharan's latest public GitHub activity" />
+
+<details><summary><b>📜 ARCADE LOG</b></summary>
+<ul><li>@Devil1716 hit OFFLINE LLM</li><li>@Devil1716 cheered kosh</li><li>@Devil1716 cheered CognyxOS</li><li>@Devil1716 inspected CognyxOS</li></ul>
+</details>
+<!--ARCADE:END-->
 
 <img src="./assets/sss/h-7.svg" width="100%" alt="Stage 07 battle log" />
 
@@ -70,16 +84,21 @@ You found it. Player 1 ships agents that run on real phones, trains small langua
 <summary><b>📜 PATCH NOTES</b></summary>
 <br />
 
-**v2.0 SSS**: Connect Four you can play from any issue, live language stats, boss fight quest panel, CRT boot on the terminal, premium trophies.<br />
+**v3.0 REPO ARCADE**: inspect any repo live, cheer repos up the XP board, vote in the boss raid, live commit radar, live stars on every card.<br />
+**v2.0 SSS**: live language stats, boss fight quest panel, CRT boot on the terminal, premium trophies.<br />
 **v1.0**: pixel room banner and Pac Man battle log.
 </details>
 
 <details>
 <summary><b>❔ HOW TO PLAY</b></summary>
 <br />
-Click a column arrow in the arcade, press Submit on the issue that opens, and a bot drops your disc within a minute. Pink and gold alternate, so anyone can join either side. Four in a row wins.
+1. <b>Inspect</b>: click a repo button under REPO QUEST and press Submit. Within a minute the inspect card shows its live stars, forks, issues, languages, last commit and a 12 week commit chart, and the bot replies with the details.<br />
+2. <b>Cheer</b>: open CHEER A REPO and click one. Each repo takes one cheer per player per day for +10 XP. Every real star is worth +100 XP.<br />
+3. <b>Raid</b>: hit the boss you want player 1 to build next. One vote per player, and hitting another boss moves your vote.<br />
+4. <b>Radar</b>: just watch. It refreshes every day with player 1's latest pushes, PRs and new repos.<br />
+The bot reads only the issue title, then closes the issue.
 </details>
 
-<a href="#arcade"><img src="./assets/sss/footer.svg" width="100%" alt="Press start. Insert coin to play Connect Four." /></a>
+<a href="#arcade"><img src="./assets/sss/footer.svg" width="100%" alt="Press start. Insert coin to play the repo arcade." /></a>
 
 </div>
