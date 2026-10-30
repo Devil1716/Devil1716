@@ -6,25 +6,18 @@
 
 <br />
 
-<a href="https://www.linkedin.com/in/sharan-s-171816s/"><img src="https://img.shields.io/badge/LinkedIn-a78bfa?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-<a href="mailto:sharan071718@gmail.com"><img src="https://img.shields.io/badge/Email-7dd3fc?style=for-the-badge&logo=gmail&logoColor=03010a" alt="Email" /></a>
-<a href="https://github.com/Devil1716"><img src="https://img.shields.io/badge/GitHub-070B14?style=for-the-badge&logo=github&logoColor=7dd3fc" alt="GitHub" /></a>
+<a href="https://www.linkedin.com/in/sharan-s-171816s/"><img src="./assets/btn-linkedin.svg" height="40" alt="LinkedIn" /></a>&nbsp;<a href="mailto:sharan071718@gmail.com"><img src="./assets/btn-email.svg" height="40" alt="Email" /></a>&nbsp;<a href="https://github.com/Devil1716"><img src="./assets/btn-github.svg" height="40" alt="GitHub" /></a>
 
-<img src="./assets/divider.svg" width="420" alt="" />
+<br /><br />
 
-<img src="./assets/label-transmission.svg" width="220" alt="Transmission" />
-
-B.Tech AI/ML @ Amity University Bengaluru (May 2027)
+<img src="./assets/header-about.svg" width="420" alt="about_me" />
 <br />
-Technical Lead at Quickoo
-<br />
-Building on-device agents, Android, FastAPI backends
-<br />
-Open to remote Backend / Agentic AI internships
 
-<img src="./assets/divider.svg" width="420" alt="" />
+<img src="./assets/bio-terminal.svg" width="640" alt="B.Tech AI/ML at Amity University Bengaluru (May 2027). Technical Lead at Quickoo. Building on-device agents, Android, FastAPI backends. Open to remote Backend and Agentic AI internships." />
 
-<img src="./assets/label-manifest.svg" width="200" alt="Manifest" />
+<br /><br />
+
+<img src="./assets/header-projects.svg" width="420" alt="projects" />
 
 </div>
 
@@ -57,15 +50,17 @@ Open to remote Backend / Agentic AI internships
 
 <div align="center">
 
-<img src="./assets/divider.svg" width="420" alt="" />
+<br />
 
-<img src="./assets/label-loadout.svg" width="190" alt="Loadout" />
+<img src="./assets/header-stack.svg" width="420" alt="tech_stack" />
+<br />
 
 <img src="https://skillicons.dev/icons?i=python,fastapi,docker,kotlin,androidstudio,ts,react,git&theme=dark" alt="Python, FastAPI, Docker, Kotlin, Android Studio, TypeScript, React, Git" />
 
-<img src="./assets/divider.svg" width="420" alt="" />
+<br /><br />
 
-<img src="./assets/label-telemetry.svg" width="210" alt="Telemetry" />
+<img src="./assets/header-stats.svg" width="420" alt="stats" />
+<br />
 
 <img src="https://github-readme-stats-one-bice.vercel.app/api?username=Devil1716&show_icons=true&hide_border=true&bg_color=03010a&title_color=7dd3fc&icon_color=a78bfa&text_color=e2e8f0" height="165" alt="GitHub stats" />
 <img src="https://streak-stats.demolab.com?user=Devil1716&hide_border=true&background=03010a&ring=7dd3fc&fire=a78bfa&currStreakNum=7dd3fc&sideNums=e2e8f0&currStreakLabel=a78bfa&sideLabels=e2e8f0&dates=94a3b8&stroke=03010a" height="165" alt="Contribution streak" />
