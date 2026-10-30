@@ -131,11 +131,11 @@
 <rect x="836" y="138" width="13" height="16" fill="#0e0b2b"/>
 <rect x="853" y="138" width="13" height="16" fill="#0e0b2b"/>
 <text x="964" y="151" fill="#e2e8f0" font-size="14" text-anchor="end">9%</text>
-<text x="36" y="185" fill="#00add8" font-size="14" font-weight="bold">GO</text>
-<rect x="190" y="172" width="13" height="16" fill="#00add8" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.05s" begin="0.75s" fill="freeze"/></rect>
-<rect x="207" y="172" width="13" height="16" fill="#00add8" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.05s" begin="0.77s" fill="freeze"/></rect>
-<rect x="224" y="172" width="13" height="16" fill="#00add8" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.05s" begin="0.79s" fill="freeze"/></rect>
-<rect x="241" y="172" width="13" height="16" fill="#00add8" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.05s" begin="0.81s" fill="freeze"/></rect>
+<text x="36" y="185" fill="#3776ab" font-size="14" font-weight="bold">PYTHON</text>
+<rect x="190" y="172" width="13" height="16" fill="#3776ab" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.05s" begin="0.75s" fill="freeze"/></rect>
+<rect x="207" y="172" width="13" height="16" fill="#3776ab" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.05s" begin="0.77s" fill="freeze"/></rect>
+<rect x="224" y="172" width="13" height="16" fill="#3776ab" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.05s" begin="0.79s" fill="freeze"/></rect>
+<rect x="241" y="172" width="13" height="16" fill="#3776ab" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.05s" begin="0.81s" fill="freeze"/></rect>
 <rect x="258" y="172" width="13" height="16" fill="#0e0b2b"/>
 <rect x="275" y="172" width="13" height="16" fill="#0e0b2b"/>
 <rect x="292" y="172" width="13" height="16" fill="#0e0b2b"/>
@@ -173,11 +173,11 @@
 <rect x="836" y="172" width="13" height="16" fill="#0e0b2b"/>
 <rect x="853" y="172" width="13" height="16" fill="#0e0b2b"/>
 <text x="964" y="185" fill="#e2e8f0" font-size="14" text-anchor="end">6%</text>
-<text x="36" y="219" fill="#3776ab" font-size="14" font-weight="bold">PYTHON</text>
-<rect x="190" y="206" width="13" height="16" fill="#3776ab" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.05s" begin="0.90s" fill="freeze"/></rect>
-<rect x="207" y="206" width="13" height="16" fill="#3776ab" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.05s" begin="0.92s" fill="freeze"/></rect>
-<rect x="224" y="206" width="13" height="16" fill="#3776ab" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.05s" begin="0.94s" fill="freeze"/></rect>
-<rect x="241" y="206" width="13" height="16" fill="#3776ab" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.05s" begin="0.96s" fill="freeze"/></rect>
+<text x="36" y="219" fill="#00add8" font-size="14" font-weight="bold">GO</text>
+<rect x="190" y="206" width="13" height="16" fill="#00add8" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.05s" begin="0.90s" fill="freeze"/></rect>
+<rect x="207" y="206" width="13" height="16" fill="#00add8" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.05s" begin="0.92s" fill="freeze"/></rect>
+<rect x="224" y="206" width="13" height="16" fill="#00add8" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.05s" begin="0.94s" fill="freeze"/></rect>
+<rect x="241" y="206" width="13" height="16" fill="#00add8" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.05s" begin="0.96s" fill="freeze"/></rect>
 <rect x="258" y="206" width="13" height="16" fill="#0e0b2b"/>
 <rect x="275" y="206" width="13" height="16" fill="#0e0b2b"/>
 <rect x="292" y="206" width="13" height="16" fill="#0e0b2b"/>
@@ -256,6 +256,6 @@
 <rect x="819" y="240" width="13" height="16" fill="#0e0b2b"/>
 <rect x="836" y="240" width="13" height="16" fill="#0e0b2b"/>
 <rect x="853" y="240" width="13" height="16" fill="#0e0b2b"/>
-<text x="964" y="253" fill="#e2e8f0" font-size="14" text-anchor="end">5%</text>
+<text x="964" y="253" fill="#e2e8f0" font-size="14" text-anchor="end">4%</text>
 <rect width="1000" height="294" fill="url(#scan)" pointer-events="none"/>
 </svg>
