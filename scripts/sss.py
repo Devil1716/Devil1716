@@ -78,12 +78,9 @@ def frame(w, h, c1=PURP, c2=PINK):
             f'<rect x="12" y="12" width="{w-24}" height="{h-24}" fill="none" stroke="{c2}" stroke-width="2" opacity=".5"/>'
             + "".join(f'<rect x="{x}" y="{y}" width="8" height="8" fill="#0d1117"/>' for x, y in [(0,0),(w-8,0),(0,h-8),(w-8,h-8)]))
 
-def avatar_b64(scale=5):
-    """Pixel art portrait (64x64, palette quantised) generated from avatar.png, upscaled with nearest neighbour."""
-    im = Image.open(OUT / "portrait64.png").convert("RGB")
-    im = im.resize((im.width*scale, im.height*scale), Image.NEAREST)
-    b = io.BytesIO(); im.save(b, "PNG", optimize=True)
-    return base64.b64encode(b.getvalue()).decode()
+def avatar_b64():
+    """Sharan's exact GitHub profile photo, embedded unchanged at native resolution."""
+    return base64.b64encode((OUT / "avatar.png").read_bytes()).decode()
 
 def hero(st):
     W, H = 1000, 440
@@ -115,11 +112,7 @@ def hero(st):
     b.append(f'<text x="{W/2}" y="25" fill="{DIM}" font-size="13" text-anchor="middle">sharan@white-angel: ~ $ neofetch</text>')
     # avatar
     b.append(f'<rect x="40" y="62" width="336" height="336" fill="none" stroke="{CYAN}" stroke-width="4" class="glow"/>')
-    b.append(f'<image x="48" y="70" width="320" height="320" style="image-rendering:pixelated" href="data:image/png;base64,{avatar_b64()}"/>')
-    for gx in (163, 238):  # lens glints
-        b.append(f'<g opacity="0"><rect x="{gx}" y="215" width="5" height="5" fill="#bfefff"/><rect x="{gx+5}" y="210" width="5" height="5" fill="#5fd7ff"/><rect x="{gx-5}" y="220" width="5" height="5" fill="#5fd7ff"/>'
-                 f'<animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;.8;.85;.9;1" dur="5s" repeatCount="indefinite"/></g>')
-    b.append(f'<rect x="48" y="70" width="320" height="6" fill="{CYAN}" opacity=".35"><animate attributeName="y" values="70;384;70" dur="4s" repeatCount="indefinite"/></rect>')
+    b.append(f'<image x="48" y="70" width="320" height="320" href="data:image/png;base64,{avatar_b64()}"/>')
     b.append(f'<text x="208" y="420" fill="{PINK}" font-size="12" text-anchor="middle" class="glow">PLAYER 1  ·  LVL {lvl}</text>')
     x0, y0, lh = 410, 74, 23
     for i, (k, v, c) in enumerate(lines):
