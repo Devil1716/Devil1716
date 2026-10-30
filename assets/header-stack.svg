@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="48" viewBox="0 0 420 48" role="img" aria-label="tech_stack">
+<defs><filter id="g" x="-20%" y="-50%" width="140%" height="200%"><feGaussianBlur stdDeviation="2.2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter><style>.c{animation:b 1s steps(1) infinite}@keyframes b{50%{opacity:0}}</style></defs>
+<rect x="4" y="4" width="412" height="40" fill="#120a24"/>
+<rect x="4" y="0" width="412" height="2" fill="#3ef3ff"/><rect x="4" y="46" width="412" height="2" fill="#3ef3ff"/><rect x="0" y="4" width="2" height="40" fill="#3ef3ff"/><rect x="418" y="4" width="2" height="40" fill="#3ef3ff"/><rect x="2" y="2" width="2" height="2" fill="#3ef3ff"/><rect x="416" y="2" width="2" height="2" fill="#3ef3ff"/><rect x="2" y="44" width="2" height="2" fill="#3ef3ff"/><rect x="416" y="44" width="2" height="2" fill="#3ef3ff"/>
+<g fill="#ff4fd8"><rect x="12" y="22" width="4" height="4"/><rect x="20" y="22" width="4" height="4"/><rect x="28" y="22" width="4" height="4"/><rect x="404" y="22" width="4" height="4"/><rect x="396" y="22" width="4" height="4"/><rect x="388" y="22" width="4" height="4"/></g>
+<g filter="url(#g)" font-family="'JetBrains Mono','Fira Code',Consolas,'Courier New',monospace" font-size="22" font-weight="700">
+<text x="131.0" y="31" fill="#ff4fd8">&gt;</text><text x="151.0" y="31" fill="#3ef3ff">tech_stack</text>
+<rect class="c" x="289.0" y="14" width="11" height="20" fill="#39d353"/></g>
+</svg>
