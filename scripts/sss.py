@@ -78,11 +78,10 @@ def frame(w, h, c1=PURP, c2=PINK):
             f'<rect x="12" y="12" width="{w-24}" height="{h-24}" fill="none" stroke="{c2}" stroke-width="2" opacity=".5"/>'
             + "".join(f'<rect x="{x}" y="{y}" width="8" height="8" fill="#0d1117"/>' for x, y in [(0,0),(w-8,0),(0,h-8),(w-8,h-8)]))
 
-def avatar_b64(n=40, scale=8):
-    im = Image.open(OUT / "avatar.png").convert("RGB")
-    s = min(im.size); im = im.crop(((im.width-s)//2, (im.height-s)//2, (im.width+s)//2, (im.height+s)//2))
-    im = im.resize((n, n), Image.LANCZOS).quantize(colors=20, method=Image.Quantize.MEDIANCUT).convert("RGB")
-    im = im.resize((n*scale, n*scale), Image.NEAREST)
+def avatar_b64(scale=5):
+    """Pixel art portrait (64x64, palette quantised) generated from avatar.png, upscaled with nearest neighbour."""
+    im = Image.open(OUT / "portrait64.png").convert("RGB")
+    im = im.resize((im.width*scale, im.height*scale), Image.NEAREST)
     b = io.BytesIO(); im.save(b, "PNG", optimize=True)
     return base64.b64encode(b.getvalue()).decode()
 
@@ -117,6 +116,9 @@ def hero(st):
     # avatar
     b.append(f'<rect x="40" y="62" width="336" height="336" fill="none" stroke="{CYAN}" stroke-width="4" class="glow"/>')
     b.append(f'<image x="48" y="70" width="320" height="320" style="image-rendering:pixelated" href="data:image/png;base64,{avatar_b64()}"/>')
+    for gx in (163, 238):  # lens glints
+        b.append(f'<g opacity="0"><rect x="{gx}" y="215" width="5" height="5" fill="#bfefff"/><rect x="{gx+5}" y="210" width="5" height="5" fill="#5fd7ff"/><rect x="{gx-5}" y="220" width="5" height="5" fill="#5fd7ff"/>'
+                 f'<animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;.8;.85;.9;1" dur="5s" repeatCount="indefinite"/></g>')
     b.append(f'<rect x="48" y="70" width="320" height="6" fill="{CYAN}" opacity=".35"><animate attributeName="y" values="70;384;70" dur="4s" repeatCount="indefinite"/></rect>')
     b.append(f'<text x="208" y="420" fill="{PINK}" font-size="12" text-anchor="middle" class="glow">PLAYER 1  ·  LVL {lvl}</text>')
     x0, y0, lh = 410, 74, 23
@@ -249,9 +251,9 @@ def footer(st):
     W, H = 1000, 170
     b = [frame(W, H, PINK, CYAN),
          f'<text x="{W/2}" y="68" fill="{PINK}" font-size="34" font-weight="bold" text-anchor="middle" letter-spacing="6" class="glow">PRESS START<animate attributeName="opacity" values="1;1;0;0" dur="1.2s" repeatCount="indefinite"/></text>',
-         f'<text x="{W/2}" y="104" fill="{TXT}" font-size="15" text-anchor="middle">INSERT COIN: inspect, cheer and raid player 1\'s repos</text>',
+         f'<text x="{W/2}" y="104" fill="{TXT}" font-size="15" text-anchor="middle">INSERT COIN: inspect and cheer player 1\'s repos</text>',
          f'<text x="40" y="146" fill="{YEL}" font-size="13">CREDITS {st["commits"]}</text>',
-         f'<text x="{W/2}" y="146" fill="{DIM}" font-size="13" text-anchor="middle">↑ ↑ ↓ ↓ ← → ← → B A</text>',
+         f'<text x="{W/2}" y="146" fill="{DIM}" font-size="13" text-anchor="middle">© 2026 PLAYER 1 · DEVIL1716</text>',
          f'<text x="{W-40}" y="146" fill="{CYAN}" font-size="13" text-anchor="end">HI SCORE SHARAN</text>',
          f'<g>{sprite("star", 120, 52, 4, YEL)}<animateTransform attributeName="transform" type="translate" values="0 0;0 -6;0 0" dur="1s" repeatCount="indefinite"/></g>',
          f'<g>{sprite("star", 848, 52, 4, YEL)}<animateTransform attributeName="transform" type="translate" values="0 -6;0 0;0 -6" dur="1s" repeatCount="indefinite"/></g>']

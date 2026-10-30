@@ -15,23 +15,18 @@ API = "https://api.github.com"
 # Allowlist: public, non fork repos. Checked again against the live API before use.
 REPOS = ["CognyxOS", "agent-phone-app", "AgentIDE", "arbor-dashboard", "isro-bah-challenge9-shwfs", "quicko-microservices",
          "drapesense", "kosh", "bluetooth-manet-android", "plot-ledger", "HackerRank-Orchestrator", "open-bugbot"]
-OPTIONS = {  # boss raid: what player 1 builds next
-    "voice": ("VOICE AGENT", "a voice first agent for the phone app"),
-    "mcp": ("MCP TOOLBELT", "MCP servers for CognyxOS"),
-    "ide": ("AGENTIDE V2", "multi agent runs inside AgentIDE"),
-    "offline": ("OFFLINE LLM", "a tiny on device model that runs offline"),
-}
 LANG_C = {"Python": "#3776ab", "Kotlin": "#a97bff", "TypeScript": "#3178c6", "JavaScript": "#f1e05a", "Dart": "#0175c2",
           "HTML": "#e34c26", "CSS": "#663399", "Shell": "#89e051", "Java": "#b07219", "C": "#555555"}
-TITLE = re.compile(r"^gh\|(inspect|cheer)\|([A-Za-z0-9._-]{1,100})$|^gh\|vote\|([a-z]{1,10})$")
+TITLE = re.compile(r"^gh\|(inspect|cheer)\|([A-Za-z0-9._-]{1,100})$")
 LOGIN = re.compile(r"^[A-Za-z0-9](?:[A-Za-z0-9-]{0,38})$")
 ISSUE = "https://github.com/" + REPO + "/issues/new?title={t}&body=Just+press+Submit+new+issue.+The+arcade+bot+does+the+rest."
 
 def today(): return os.environ.get("ARCADE_TODAY") or datetime.date.today().isoformat()
 
 def load():
-    base = {"xp": {}, "cheerers": {}, "cheers": {}, "votes": {}, "voters": {}, "inspect": None, "log": []}
+    base = {"xp": {}, "cheerers": {}, "cheers": {}, "inspect": None, "log": []}
     if STATE.exists(): base.update(json.loads(STATE.read_text()))
+    for k in ("votes", "voters"): base.pop(k, None)  # boss raid retired
     return base
 
 def repo_info(name):
@@ -59,15 +54,7 @@ def handle(st, title, user, info=repo_info):
     if not LOGIN.match(user or ""): return "Unknown player.", False
     m = TITLE.match((title or "").strip())
     if not m: return "I could not read that command. Use the buttons on the profile.", False
-    act, name, opt = m.group(1), m.group(2), m.group(3)
-    if opt is not None:
-        if opt not in OPTIONS: return "That raid target does not exist. Pick one of the boss buttons.", False
-        prev = st["voters"].get(user)
-        if prev == opt: return f"You already back {OPTIONS[opt][0]}. One vote per player.", False
-        if prev: st["votes"][prev] = max(0, st["votes"].get(prev, 0) - 1)
-        st["voters"][user] = opt; st["votes"][opt] = st["votes"].get(opt, 0) + 1
-        st["log"].append(f"@{user} hit {OPTIONS[opt][0]}")
-        return (f"Vote moved to {OPTIONS[opt][0]}." if prev else f"Your hit landed on {OPTIONS[opt][0]}.") + f" It now has {st['votes'][opt]} votes.", True
+    act, name = m.group(1), m.group(2)
     if name not in REPOS: return "That repo is not in the quest menu. Pick one of the repo buttons.", False
     data = info(name)
     if not data: return "That repo is not available right now.", False
@@ -138,19 +125,6 @@ def xp_svg(st):
         b.append(f'<text x="{36+i*186}" y="{y+30}" fill="{TXT}" font-size="13">{"🥇🥈🥉"[i] if i < 3 else "★"} @{esc(u[:14])} {n}</text>')
     return svg(W, H, "".join(b))
 
-def raid_svg(st):
-    W, H = 1000, 90 + 52 * len(OPTIONS) + 20
-    tot = sum(st["votes"].values())
-    b = [frame(W, H, PINK, YEL), f'<text x="36" y="48" fill="{PINK}" font-size="15" letter-spacing="3" class="glow">⚔ BOSS RAID</text>',
-         f'<text x="964" y="48" fill="{DIM}" font-size="12" text-anchor="end">{tot} HITS · MOST DAMAGE GETS BUILT NEXT</text>']
-    lead = max(OPTIONS, key=lambda k: st["votes"].get(k, 0)) if tot else None
-    for i, (k, (nm, desc)) in enumerate(OPTIONS.items()):
-        y = 76 + i * 52; v = st["votes"].get(k, 0); hp = 1 - v / max(tot, 1) if tot else 1
-        b.append(f'<text x="36" y="{y+18}" fill="{YEL if k == lead else TXT}" font-size="15" font-weight="bold">{nm}</text><text x="36" y="{y+36}" fill="{DIM}" font-size="11">{esc(desc)}</text>')
-        b.append(f'<text x="360" y="{y+22}" fill="{DIM}" font-size="11">HP</text>' + bar(386, y + 8, 460, 20, hp, PINK if hp > .4 else YEL, i * .15))
-        b.append(f'<text x="964" y="{y+24}" fill="{TXT}" font-size="13" text-anchor="end">{v} hits</text>')
-    return svg(W, H, "".join(b))
-
 def radar_svg(events):
     W, H = 1000, 90 + 34 * max(1, len(events)) + 10
     b = [frame(W, H, PURP, CYAN), f'<text x="36" y="48" fill="{PURP}" font-size="15" letter-spacing="3" class="glow">📡 COMMIT RADAR</text>',
@@ -191,29 +165,23 @@ def link(t): return ISSUE.format(t=t.replace("|", "%7C"))
 def block(st):
     menu = " ".join(f'<a href="{link("gh|inspect|"+r)}"><img src="./assets/arcade/r-{r}.svg" width="24%" alt="Inspect {r}" /></a>' for r in REPOS)
     cheer = " ".join(f'<a href="{link("gh|cheer|"+r)}"><img src="./assets/arcade/c-{r}.svg" width="24%" alt="Cheer {r}" /></a>' for r in REPOS)
-    raid = " ".join(f'<a href="{link("gh|vote|"+k)}"><img src="./assets/arcade/v-{k}.svg" width="24%" alt="Hit {v[0]}" /></a>' for k, v in OPTIONS.items())
     ins = st["inspect"]["name"] if st["inspect"] else None
     star = f'<a href="https://github.com/{USER}/{ins}"><img src="./assets/arcade/star.svg" height="40" alt="Star to grant +100 XP" /></a>' if ins else ""
-    log = "".join(f"<li>{esc(x)}</li>" for x in reversed(st["log"][-8:])) or "<li>No moves yet.</li>"
     return (f'<!--ARCADE:START-->\n<a id="arcade"></a>\n\n<img src="./assets/arcade/inspect.svg" width="100%" alt="Inspect card for {ins or "no repo yet"}" />\n\n{star}\n\n'
             f'<b>REPO QUEST</b>: pick a repo, press Submit, and its live card loads here.\n\n{menu}\n\n'
             f'<a id="levelup"></a><img src="./assets/arcade/xp.svg" width="100%" alt="Level up board: most cheered repos and top cheerers" />\n\n'
             f'<details><summary><b>⬆ CHEER A REPO (+10 XP, once a day each)</b></summary>\n<br />\n\n{cheer}\n</details>\n\n'
-            f'<img src="./assets/arcade/raid.svg" width="100%" alt="Boss raid poll: what Sharan builds next" />\n\n{raid}\n\n'
-            f'<img src="./assets/arcade/radar.svg" width="100%" alt="Commit radar: Sharan\'s latest public GitHub activity" />\n\n'
-            f'<details><summary><b>📜 ARCADE LOG</b></summary>\n<ul>{log}</ul>\n</details>\n<!--ARCADE:END-->')
+            f'<img src="./assets/arcade/radar.svg" width="100%" alt="Commit radar: Sharan\'s latest public GitHub activity" />\n<!--ARCADE:END-->')
 
 def render(st, events=None):
     OUT.mkdir(parents=True, exist_ok=True)
     for r in REPOS:
         (OUT / f"r-{r}.svg").write_text(btn("▶ " + (r if len(r) <= 22 else r[:20] + ".."), CYAN, 240))
         (OUT / f"c-{r}.svg").write_text(btn("+XP " + (r if len(r) <= 20 else r[:18] + ".."), GRN, 240))
-    for k, (nm, _) in OPTIONS.items(): (OUT / f"v-{k}.svg").write_text(btn("⚔ " + nm, PINK, 240))
     (OUT / "star.svg").write_text(btn("★ STAR TO GRANT +100 XP", YEL, 300))
     ins = st["inspect"]
     (OUT / "inspect.svg").write_text(inspect_svg(ins, st["xp"].get(ins["name"], 0) + 100 * ins["stars"] if ins else 0))
     (OUT / "xp.svg").write_text(xp_svg(st))
-    (OUT / "raid.svg").write_text(raid_svg(st))
     if events is not None: (OUT / "radar.svg").write_text(radar_svg(events))
     md = README.read_text()
     README.write_text(re.sub(r"<!--ARCADE:START-->.*?<!--ARCADE:END-->", lambda _: block(st), md, flags=re.S))

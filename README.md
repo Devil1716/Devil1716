@@ -1,4 +1,3 @@
-<!-- ↑ ↑ ↓ ↓ ← → ← → B A : you found the secret level. Say hi at sharan071718@gmail.com with the word KONAMI -->
 <div align="center">
 
 <img src="./assets/hero-room.gif" width="100%" alt="Sharan S (@Devil1716) coding in a pixel art room at night" />
@@ -55,15 +54,7 @@
 <a href="https://github.com/Devil1716/Devil1716/issues/new?title=gh%7Ccheer%7CCognyxOS&body=Just+press+Submit+new+issue.+The+arcade+bot+does+the+rest."><img src="./assets/arcade/c-CognyxOS.svg" width="24%" alt="Cheer CognyxOS" /></a> <a href="https://github.com/Devil1716/Devil1716/issues/new?title=gh%7Ccheer%7Cagent-phone-app&body=Just+press+Submit+new+issue.+The+arcade+bot+does+the+rest."><img src="./assets/arcade/c-agent-phone-app.svg" width="24%" alt="Cheer agent-phone-app" /></a> <a href="https://github.com/Devil1716/Devil1716/issues/new?title=gh%7Ccheer%7CAgentIDE&body=Just+press+Submit+new+issue.+The+arcade+bot+does+the+rest."><img src="./assets/arcade/c-AgentIDE.svg" width="24%" alt="Cheer AgentIDE" /></a> <a href="https://github.com/Devil1716/Devil1716/issues/new?title=gh%7Ccheer%7Carbor-dashboard&body=Just+press+Submit+new+issue.+The+arcade+bot+does+the+rest."><img src="./assets/arcade/c-arbor-dashboard.svg" width="24%" alt="Cheer arbor-dashboard" /></a> <a href="https://github.com/Devil1716/Devil1716/issues/new?title=gh%7Ccheer%7Cisro-bah-challenge9-shwfs&body=Just+press+Submit+new+issue.+The+arcade+bot+does+the+rest."><img src="./assets/arcade/c-isro-bah-challenge9-shwfs.svg" width="24%" alt="Cheer isro-bah-challenge9-shwfs" /></a> <a href="https://github.com/Devil1716/Devil1716/issues/new?title=gh%7Ccheer%7Cquicko-microservices&body=Just+press+Submit+new+issue.+The+arcade+bot+does+the+rest."><img src="./assets/arcade/c-quicko-microservices.svg" width="24%" alt="Cheer quicko-microservices" /></a> <a href="https://github.com/Devil1716/Devil1716/issues/new?title=gh%7Ccheer%7Cdrapesense&body=Just+press+Submit+new+issue.+The+arcade+bot+does+the+rest."><img src="./assets/arcade/c-drapesense.svg" width="24%" alt="Cheer drapesense" /></a> <a href="https://github.com/Devil1716/Devil1716/issues/new?title=gh%7Ccheer%7Ckosh&body=Just+press+Submit+new+issue.+The+arcade+bot+does+the+rest."><img src="./assets/arcade/c-kosh.svg" width="24%" alt="Cheer kosh" /></a> <a href="https://github.com/Devil1716/Devil1716/issues/new?title=gh%7Ccheer%7Cbluetooth-manet-android&body=Just+press+Submit+new+issue.+The+arcade+bot+does+the+rest."><img src="./assets/arcade/c-bluetooth-manet-android.svg" width="24%" alt="Cheer bluetooth-manet-android" /></a> <a href="https://github.com/Devil1716/Devil1716/issues/new?title=gh%7Ccheer%7Cplot-ledger&body=Just+press+Submit+new+issue.+The+arcade+bot+does+the+rest."><img src="./assets/arcade/c-plot-ledger.svg" width="24%" alt="Cheer plot-ledger" /></a> <a href="https://github.com/Devil1716/Devil1716/issues/new?title=gh%7Ccheer%7CHackerRank-Orchestrator&body=Just+press+Submit+new+issue.+The+arcade+bot+does+the+rest."><img src="./assets/arcade/c-HackerRank-Orchestrator.svg" width="24%" alt="Cheer HackerRank-Orchestrator" /></a> <a href="https://github.com/Devil1716/Devil1716/issues/new?title=gh%7Ccheer%7Copen-bugbot&body=Just+press+Submit+new+issue.+The+arcade+bot+does+the+rest."><img src="./assets/arcade/c-open-bugbot.svg" width="24%" alt="Cheer open-bugbot" /></a>
 </details>
 
-<img src="./assets/arcade/raid.svg" width="100%" alt="Boss raid poll: what Sharan builds next" />
-
-<a href="https://github.com/Devil1716/Devil1716/issues/new?title=gh%7Cvote%7Cvoice&body=Just+press+Submit+new+issue.+The+arcade+bot+does+the+rest."><img src="./assets/arcade/v-voice.svg" width="24%" alt="Hit VOICE AGENT" /></a> <a href="https://github.com/Devil1716/Devil1716/issues/new?title=gh%7Cvote%7Cmcp&body=Just+press+Submit+new+issue.+The+arcade+bot+does+the+rest."><img src="./assets/arcade/v-mcp.svg" width="24%" alt="Hit MCP TOOLBELT" /></a> <a href="https://github.com/Devil1716/Devil1716/issues/new?title=gh%7Cvote%7Cide&body=Just+press+Submit+new+issue.+The+arcade+bot+does+the+rest."><img src="./assets/arcade/v-ide.svg" width="24%" alt="Hit AGENTIDE V2" /></a> <a href="https://github.com/Devil1716/Devil1716/issues/new?title=gh%7Cvote%7Coffline&body=Just+press+Submit+new+issue.+The+arcade+bot+does+the+rest."><img src="./assets/arcade/v-offline.svg" width="24%" alt="Hit OFFLINE LLM" /></a>
-
 <img src="./assets/arcade/radar.svg" width="100%" alt="Commit radar: Sharan's latest public GitHub activity" />
-
-<details><summary><b>📜 ARCADE LOG</b></summary>
-<ul><li>No moves yet.</li></ul>
-</details>
 <!--ARCADE:END-->
 
 <img src="./assets/sss/h-7.svg" width="100%" alt="Stage 07 battle log" />
@@ -75,27 +66,11 @@
 </picture>
 
 <details>
-<summary><b>🕹 SECRET LEVEL</b></summary>
-<br />
-You found it. Player 1 ships agents that run on real phones, trains small language models for fun, and answers email fast. <a href="mailto:sharan071718@gmail.com?subject=KONAMI">Send KONAMI</a> and say hi.
-</details>
-
-<details>
-<summary><b>📜 PATCH NOTES</b></summary>
-<br />
-
-**v3.0 REPO ARCADE**: inspect any repo live, cheer repos up the XP board, vote in the boss raid, live commit radar, live stars on every card.<br />
-**v2.0 SSS**: live language stats, boss fight quest panel, CRT boot on the terminal, premium trophies.<br />
-**v1.0**: pixel room banner and Pac Man battle log.
-</details>
-
-<details>
 <summary><b>❔ HOW TO PLAY</b></summary>
 <br />
 1. <b>Inspect</b>: click a repo button under REPO QUEST and press Submit. Within a minute the inspect card shows its live stars, forks, issues, languages, last commit and a 12 week commit chart, and the bot replies with the details.<br />
 2. <b>Cheer</b>: open CHEER A REPO and click one. Each repo takes one cheer per player per day for +10 XP. Every real star is worth +100 XP.<br />
-3. <b>Raid</b>: hit the boss you want player 1 to build next. One vote per player, and hitting another boss moves your vote.<br />
-4. <b>Radar</b>: just watch. It refreshes every day with player 1's latest pushes, PRs and new repos.<br />
+3. <b>Radar</b>: just watch. It refreshes every day with player 1's latest pushes, PRs and new repos.<br />
 The bot reads only the issue title, then closes the issue.
 </details>
 
