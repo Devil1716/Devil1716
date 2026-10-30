@@ -1,72 +1,31 @@
+<!-- ↑ ↑ ↓ ↓ ← → ← → B A : you found the secret level. Say hi at sharan071718@gmail.com with the word KONAMI -->
 <div align="center">
 
 <img src="./assets/hero-room.gif" width="100%" alt="Sharan S (@Devil1716) coding in a pixel art room at night" />
 
-<a href="https://github.com/Devil1716?tab=repositories"><img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=22&duration=3200&pause=1000&color=7DD3FC&center=true&vCenter=true&width=780&lines=I+build+agents+that+run+on+real+devices.;Android+%C2%B7+FastAPI+%C2%B7+LLMs+%C2%B7+MCP.;Open+to+remote+Backend+%2F+Agentic+AI+internships." alt="I build agents that run on real devices." /></a>
+<img src="./assets/sss/h-1.svg" width="100%" alt="Stage 01 whoami" />
 
-<br />
+<a href="https://devil1716.github.io"><img src="./assets/sss/hero-fetch.svg" width="100%" alt="neofetch: Sharan S, B.Tech AI/ML at Amity University Bengaluru, Technical Lead at Quickoo, open to remote Backend and Agentic AI internships" /></a>
 
 <a href="https://www.linkedin.com/in/sharan-s-171816s/"><img src="./assets/btn-linkedin.svg" height="40" alt="LinkedIn" /></a>&nbsp;<a href="mailto:sharan071718@gmail.com"><img src="./assets/btn-email.svg" height="40" alt="Email" /></a>&nbsp;<a href="https://github.com/Devil1716"><img src="./assets/btn-github.svg" height="40" alt="GitHub" /></a>
 
-<br /><br />
+<img src="./assets/sss/h-2.svg" width="100%" alt="Stage 02 main quests" />
 
-<img src="./assets/header-about.svg" width="420" alt="about_me" />
-<br />
+<a href="https://github.com/Devil1716/CognyxOS"><img src="./assets/sss/q-CognyxOS.svg" width="49%" alt="CognyxOS" /></a> <a href="https://github.com/Devil1716/agent-phone-app"><img src="./assets/sss/q-agent-phone-app.svg" width="49%" alt="agent-phone-app" /></a>
+<a href="https://github.com/Devil1716/AgentIDE"><img src="./assets/sss/q-AgentIDE.svg" width="49%" alt="AgentIDE" /></a> <a href="https://github.com/Devil1716/BubbleLab"><img src="./assets/sss/q-BubbleLab.svg" width="49%" alt="BubbleLab" /></a>
 
-<img src="./assets/bio-terminal.svg" width="640" alt="B.Tech AI/ML at Amity University Bengaluru (May 2027). Technical Lead at Quickoo. Building on-device agents, Android, FastAPI backends. Open to remote Backend and Agentic AI internships." />
+<a href="https://github.com/Devil1716/arbor-dashboard"><img src="./assets/sss/s-arbor-dashboard.svg" width="32%" alt="arbor-dashboard" /></a> <a href="https://github.com/Devil1716/isro-bah-challenge9-shwfs"><img src="./assets/sss/s-isro-bah-challenge9-shwfs.svg" width="32%" alt="isro-bah-challenge9-shwfs" /></a> <a href="https://github.com/Devil1716/quicko-microservices"><img src="./assets/sss/s-quicko-microservices.svg" width="32%" alt="quicko-microservices" /></a>
+<a href="https://github.com/Devil1716/drapesense"><img src="./assets/sss/s-drapesense.svg" width="32%" alt="drapesense" /></a> <a href="https://github.com/Devil1716/kosh"><img src="./assets/sss/s-kosh.svg" width="32%" alt="kosh" /></a> <a href="https://github.com/Devil1716/bluetooth-manet-android"><img src="./assets/sss/s-bluetooth-manet-android.svg" width="32%" alt="bluetooth-manet-android" /></a>
 
-<br /><br />
+<img src="./assets/sss/h-3.svg" width="100%" alt="Stage 03 achievements" />
 
-<img src="./assets/header-projects.svg" width="420" alt="projects" />
+<img src="./assets/sss/achievements.svg" width="100%" alt="Achievements: ISRO BAH Challenge 9, 200M parameter language model at the Novo Nordisk hackathon, Technical Lead at Quickoo" />
 
-</div>
+<img src="./assets/sss/h-4.svg" width="100%" alt="Stage 04 inventory" />
 
-<table>
-  <tr>
-    <td width="50%" align="center" valign="top">
-      <a href="https://github.com/Devil1716/agent-phone-app"><img src="./assets/cards/agent-phone-app.svg" width="100%" alt="agent-phone-app" /></a>
-    </td>
-    <td width="50%" align="center" valign="top">
-      <a href="https://github.com/Devil1716/drapesense"><img src="./assets/cards/drapesense.svg" width="100%" alt="drapesense" /></a>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" align="center" valign="top">
-      <a href="https://github.com/Devil1716/bluetooth-manet-android"><img src="./assets/cards/bluetooth-manet-android.svg" width="100%" alt="bluetooth-manet-android" /></a>
-    </td>
-    <td width="50%" align="center" valign="top">
-      <a href="https://github.com/Devil1716/kosh"><img src="./assets/cards/kosh.svg" width="100%" alt="kosh" /></a>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" align="center" valign="top">
-      <a href="https://github.com/Devil1716/isro-bah-challenge9-shwfs"><img src="./assets/cards/isro-bah-challenge9-shwfs.svg" width="100%" alt="isro-bah-challenge9-shwfs" /></a>
-    </td>
-    <td width="50%" align="center" valign="top">
-      <a href="https://github.com/Devil1716/AgentIDE"><img src="./assets/cards/AgentIDE.svg" width="100%" alt="AgentIDE" /></a>
-    </td>
-  </tr>
-</table>
+<img src="./assets/sss/inventory.svg" width="100%" alt="Tech stack: Python, Kotlin, TypeScript, FastAPI, Android, Docker, React, LLMs, MCP, ONNX, PyTorch, Dart, Postgres, Git, Linux, GCP" />
 
-<div align="center">
-
-<br />
-
-<img src="./assets/header-stack.svg" width="420" alt="tech_stack" />
-<br />
-
-<img src="https://skillicons.dev/icons?i=python,fastapi,docker,kotlin,androidstudio,ts,react,git&theme=dark" alt="Python, FastAPI, Docker, Kotlin, Android Studio, TypeScript, React, Git" />
-
-<br /><br />
-
-<img src="./assets/header-stats.svg" width="420" alt="stats" />
-<br />
-
-<img src="https://github-readme-stats-one-bice.vercel.app/api?username=Devil1716&show_icons=true&hide_border=true&bg_color=03010a&title_color=7dd3fc&icon_color=a78bfa&text_color=e2e8f0" height="165" alt="GitHub stats" />
-<img src="https://streak-stats.demolab.com?user=Devil1716&hide_border=true&background=03010a&ring=7dd3fc&fire=a78bfa&currStreakNum=7dd3fc&sideNums=e2e8f0&currStreakLabel=a78bfa&sideLabels=e2e8f0&dates=94a3b8&stroke=03010a" height="165" alt="Contribution streak" />
-<img src="https://github-readme-stats-one-bice.vercel.app/api/top-langs/?username=Devil1716&layout=compact&hide_border=true&bg_color=03010a&title_color=7dd3fc&text_color=e2e8f0" height="165" alt="Top languages" />
-
-<img src="https://activity-graph.vercel.app/graph?username=Devil1716&bg_color=03010a&color=e2e8f0&line=7dd3fc&point=a78bfa&area=true&hide_border=true" width="100%" alt="Contribution activity graph" />
+<img src="./assets/sss/h-5.svg" width="100%" alt="Stage 05 battle log" />
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Devil1716/Devil1716/output/pacman-contribution-graph-dark.svg" />
@@ -74,6 +33,12 @@
   <img alt="Pac-Man eating Sharan's contributions" src="https://raw.githubusercontent.com/Devil1716/Devil1716/output/pacman-contribution-graph-dark.svg" />
 </picture>
 
-[LinkedIn](https://www.linkedin.com/in/sharan-s-171816s/) · [sharan071718@gmail.com](mailto:sharan071718@gmail.com)
+<details>
+<summary><b>??? secret level</b></summary>
+<br />
+You pressed the button. Player 1 ships agents that run on real phones, trains small language models for fun, and answers email fast. <a href="mailto:sharan071718@gmail.com?subject=KONAMI">Send KONAMI</a> and say hi.
+</details>
+
+<a href="https://devil1716.github.io"><img src="./assets/sss/footer.svg" width="100%" alt="Press start. Insert coin to hire player 1." /></a>
 
 </div>
