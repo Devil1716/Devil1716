@@ -74,8 +74,9 @@ Open to remote Backend / Agentic AI internships
 <img src="https://activity-graph.vercel.app/graph?username=Devil1716&bg_color=03010a&color=e2e8f0&line=7dd3fc&point=a78bfa&area=true&hide_border=true" width="100%" alt="Contribution activity graph" />
 
 <picture>
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Devil1716/Devil1716/output/github-contribution-grid-snake.svg" />
-  <img alt="Contribution snake" src="https://raw.githubusercontent.com/Devil1716/Devil1716/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Devil1716/Devil1716/output/pacman-contribution-graph-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Devil1716/Devil1716/output/pacman-contribution-graph.svg" />
+  <img alt="Pac-Man eating Sharan's contributions" src="https://raw.githubusercontent.com/Devil1716/Devil1716/output/pacman-contribution-graph-dark.svg" />
 </picture>
 
 [LinkedIn](https://www.linkedin.com/in/sharan-s-171816s/) · [sharan071718@gmail.com](mailto:sharan071718@gmail.com)

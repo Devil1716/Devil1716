@@ -1,4 +1,4 @@
-name: Generate contribution animation
+name: Generate Pac-Man contribution graph
 
 on:
   schedule:
@@ -14,17 +14,14 @@ permissions:
 jobs:
   generate:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 10
     steps:
-      - name: Generate contribution snake
-        uses: Platane/snk/svg-only@v3
+      - name: Generate Pac-Man contribution graph
+        uses: abozanona/pacman-contribution-graph@main
         with:
-          github_user_name: Devil1716
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+          github_user_name: ${{ github.repository_owner }}
 
-      - name: Publish animation
+      - name: Publish graph
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
