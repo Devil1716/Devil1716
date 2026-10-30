@@ -4,7 +4,7 @@
 <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="2" fill="#ffffff" opacity="0.025"/></pattern></defs>
 <rect x="4" y="4" width="992" height="162" fill="#07051a"/><rect x="4" y="4" width="992" height="162" fill="none" stroke="#ff4fd8" stroke-width="4"/><rect x="12" y="12" width="976" height="146" fill="none" stroke="#22d3ee" stroke-width="2" opacity=".5"/><rect x="0" y="0" width="8" height="8" fill="#0d1117"/><rect x="992" y="0" width="8" height="8" fill="#0d1117"/><rect x="0" y="162" width="8" height="8" fill="#0d1117"/><rect x="992" y="162" width="8" height="8" fill="#0d1117"/>
 <text x="500.0" y="68" fill="#ff4fd8" font-size="34" font-weight="bold" text-anchor="middle" letter-spacing="6" class="glow">PRESS START<animate attributeName="opacity" values="1;1;0;0" dur="1.2s" repeatCount="indefinite"/></text>
-<text x="500.0" y="104" fill="#e2e8f0" font-size="15" text-anchor="middle">INSERT COIN to hire player 1   ·   remote Backend / Agentic AI internships</text>
+<text x="500.0" y="104" fill="#e2e8f0" font-size="15" text-anchor="middle">INSERT COIN to play Connect Four with player 1</text>
 <text x="40" y="146" fill="#facc15" font-size="13">CREDITS 692</text>
 <text x="500.0" y="146" fill="#7c7aa8" font-size="13" text-anchor="middle">↑ ↑ ↓ ↓ ← → ← → B A</text>
 <text x="960" y="146" fill="#22d3ee" font-size="13" text-anchor="end">HI SCORE SHARAN</text>

@@ -6,7 +6,7 @@
 <rect x="0" y="16" width="8" height="36" fill="#ff4fd8"/>
 <rect x="0" y="50" width="1000" height="2" fill="#ff4fd8" opacity=".6"/>
 <text x="28" y="41" fill="#7c7aa8" font-size="15">STAGE 02</text>
-<text x="120" y="42" fill="#ff4fd8" font-size="20" font-weight="bold" class="glow" letter-spacing="3">MAIN QUESTS</text>
+<text x="120" y="42" fill="#ff4fd8" font-size="20" font-weight="bold" class="glow" letter-spacing="3">CURRENT QUEST</text>
 <rect x="976" y="30" width="8" height="8" fill="#ff4fd8" opacity="0.15"><animate attributeName="opacity" values="0.1;1;0.1" dur="1.6s" begin="0.00s" repeatCount="indefinite"/></rect>
 <rect x="960" y="30" width="8" height="8" fill="#ff4fd8" opacity="0.22"><animate attributeName="opacity" values="0.1;1;0.1" dur="1.6s" begin="0.12s" repeatCount="indefinite"/></rect>
 <rect x="944" y="30" width="8" height="8" fill="#ff4fd8" opacity="0.29"><animate attributeName="opacity" values="0.1;1;0.1" dur="1.6s" begin="0.24s" repeatCount="indefinite"/></rect>

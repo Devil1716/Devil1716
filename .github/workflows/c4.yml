@@ -1,0 +1,38 @@
+name: Connect Four
+on:
+  issues:
+    types: [opened]
+permissions:
+  contents: write
+  issues: write
+concurrency:
+  group: c4
+  cancel-in-progress: false
+jobs:
+  move:
+    if: startsWith(github.event.issue.title, 'c4|')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - name: Play move
+        env:
+          ISSUE_TITLE: ${{ github.event.issue.title }}
+          ISSUE_USER: ${{ github.event.issue.user.login }}
+          C4_COMMENT: ${{ runner.temp }}/comment.md
+        run: python scripts/c4.py
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+          git add game assets/game README.md
+          git diff --cached --quiet || git commit -m "Connect Four move from issue #${{ github.event.issue.number }}"
+          git pull --rebase && git push
+      - name: Reply and close
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NUM: ${{ github.event.issue.number }}
+        run: |
+          gh issue comment "$NUM" --repo "$GITHUB_REPOSITORY" --body-file "$RUNNER_TEMP/comment.md"
+          gh issue close "$NUM" --repo "$GITHUB_REPOSITORY"
