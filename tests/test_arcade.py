@@ -25,11 +25,11 @@ def test_vote_removed_and_rejects():
 def test_block_has_no_raid_or_log():
     b = arcade.block(st())
     assert "vote" not in b and "raid" not in b.lower() and "ARCADE LOG" not in b
-    assert "REPO QUEST" in b and "levelup" in b and "radar.svg" in b
+    assert "REPO QUEST" in b and "levelup" not in b and "xp.svg" not in b and "radar.svg" in b
 
 def test_readme_clean():
     md = (Path(arcade.ROOT) / "README.md").read_text()
-    for bad in ["SECRET LEVEL", "PATCH NOTES", "KONAMI", "ARCADE LOG", "raid", "vote"]:
+    for bad in ["SECRET LEVEL", "PATCH NOTES", "KONAMI", "ARCADE LOG", "raid", "vote", "xp.svg", "LEVEL UP"]:
         assert bad not in md, bad
-    for good in ["hero-fetch.svg", "quest.svg", "REPO QUEST", "xp.svg", "radar.svg", "pacman", "HOW TO PLAY", "footer.svg"]:
+    for good in ["hero-fetch.svg", "quest.svg", "REPO QUEST", "radar.svg", "pacman", "HOW TO PLAY", "footer.svg"]:
         assert good in md, good

@@ -94,7 +94,6 @@ def hero(st):
         ("Kernel", "Python 3 / Kotlin", CYAN),
         ("Uptime", f"{days // 365}y {min((days % 365)//30, 11)}m on GitHub", CYAN),
         ("Shell", "FastAPI + Android + LLMs", CYAN),
-        ("Role", "Technical Lead @ Quickoo", CYAN),
         ("Class", "B.Tech AI/ML (May 2027)", CYAN),
         ("Packages", f"{st['repos']} repos  ·  {st['nlang']} languages", PINK),
         ("Commits", f"{st['commits']} contributions this year", PINK),

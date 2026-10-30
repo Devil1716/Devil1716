@@ -107,24 +107,6 @@ def inspect_svg(d, stars_bonus):
         b.append(f'<rect x="{680+i*24}" y="{232-h}" width="18" height="{h}" fill="{c if v else DIM}"><animate attributeName="height" values="0;{h}" dur=".8s"/><animate attributeName="y" values="232;{232-h}" dur=".8s"/></rect>')
     return svg(W, H, "".join(b))
 
-def xp_svg(st):
-    W = 1000; rows = sorted(REPOS, key=lambda r: -st["xp"].get(r, 0))[:6]; H = 90 + 36 * len(rows) + 120
-    mx = max([st["xp"].get(r, 0) for r in rows] + [100])
-    b = [frame(W, H, GRN, PURP), f'<text x="36" y="48" fill="{GRN}" font-size="15" letter-spacing="3" class="glow">⬆ LEVEL UP BOARD</text>',
-         f'<text x="964" y="48" fill="{DIM}" font-size="12" text-anchor="end">CHEER +10 XP · STAR +100 XP</text>']
-    for i, r in enumerate(rows):
-        y = 80 + i * 36; xp = st["xp"].get(r, 0) + 100 * st.get("stars", {}).get(r, 0)
-        b.append(f'<text x="36" y="{y+16}" fill="{YEL if i == 0 else TXT}" font-size="14">{i+1}. {esc(r[:24])}</text>')
-        b.append(bar(330, y, 520, 20, xp / max(mx, xp, 1), GRN if i else YEL, i * .15))
-        b.append(f'<text x="964" y="{y+16}" fill="{TXT}" font-size="13" text-anchor="end">LV {xp//100+1} · {xp}</text>')
-    y = 100 + 36 * len(rows)
-    b.append(f'<text x="36" y="{y}" fill="{PINK}" font-size="13" letter-spacing="2">TOP CHEERERS</text>')
-    top = sorted(st["cheerers"].items(), key=lambda t: (-t[1], t[0]))[:5]
-    if not top: b.append(f'<text x="36" y="{y+30}" fill="{DIM}" font-size="14">No cheers yet. Be the first hero.</text>')
-    for i, (u, n) in enumerate(top):
-        b.append(f'<text x="{36+i*186}" y="{y+30}" fill="{TXT}" font-size="13">{"🥇🥈🥉"[i] if i < 3 else "★"} @{esc(u[:14])} {n}</text>')
-    return svg(W, H, "".join(b))
-
 def radar_svg(events):
     W, H = 1000, 90 + 34 * max(1, len(events)) + 10
     b = [frame(W, H, PURP, CYAN), f'<text x="36" y="48" fill="{PURP}" font-size="15" letter-spacing="3" class="glow">📡 COMMIT RADAR</text>',
@@ -169,7 +151,6 @@ def block(st):
     star = f'<a href="https://github.com/{USER}/{ins}"><img src="./assets/arcade/star.svg" height="40" alt="Star to grant +100 XP" /></a>' if ins else ""
     return (f'<!--ARCADE:START-->\n<a id="arcade"></a>\n\n<img src="./assets/arcade/inspect.svg" width="100%" alt="Inspect card for {ins or "no repo yet"}" />\n\n{star}\n\n'
             f'<b>REPO QUEST</b>: pick a repo, press Submit, and its live card loads here.\n\n{menu}\n\n'
-            f'<a id="levelup"></a><img src="./assets/arcade/xp.svg" width="100%" alt="Level up board: most cheered repos and top cheerers" />\n\n'
             f'<details><summary><b>⬆ CHEER A REPO (+10 XP, once a day each)</b></summary>\n<br />\n\n{cheer}\n</details>\n\n'
             f'<img src="./assets/arcade/radar.svg" width="100%" alt="Commit radar: Sharan\'s latest public GitHub activity" />\n<!--ARCADE:END-->')
 
@@ -181,7 +162,6 @@ def render(st, events=None):
     (OUT / "star.svg").write_text(btn("★ STAR TO GRANT +100 XP", YEL, 300))
     ins = st["inspect"]
     (OUT / "inspect.svg").write_text(inspect_svg(ins, st["xp"].get(ins["name"], 0) + 100 * ins["stars"] if ins else 0))
-    (OUT / "xp.svg").write_text(xp_svg(st))
     if events is not None: (OUT / "radar.svg").write_text(radar_svg(events))
     md = README.read_text()
     README.write_text(re.sub(r"<!--ARCADE:START-->.*?<!--ARCADE:END-->", lambda _: block(st), md, flags=re.S))
