@@ -46,7 +46,7 @@
 <rect x="819" y="70" width="13" height="16" fill="#3178c6" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.05s" begin="1.04s" fill="freeze"/></rect>
 <rect x="836" y="70" width="13" height="16" fill="#3178c6" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.05s" begin="1.06s" fill="freeze"/></rect>
 <rect x="853" y="70" width="13" height="16" fill="#3178c6" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.05s" begin="1.08s" fill="freeze"/></rect>
-<text x="964" y="83" fill="#e2e8f0" font-size="14" text-anchor="end">60%</text>
+<text x="964" y="83" fill="#e2e8f0" font-size="14" text-anchor="end">59%</text>
 <text x="36" y="117" fill="#a97bff" font-size="14" font-weight="bold">KOTLIN</text>
 <rect x="190" y="104" width="13" height="16" fill="#a97bff" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.05s" begin="0.45s" fill="freeze"/></rect>
 <rect x="207" y="104" width="13" height="16" fill="#a97bff" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.05s" begin="0.47s" fill="freeze"/></rect>
