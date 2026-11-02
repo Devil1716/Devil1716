@@ -23,7 +23,7 @@
 <clipPath id="c4"><rect x="410" y="149" height="22" width="0"><animate attributeName="width" from="0" to="560" begin="0.97s" dur="0.5s" fill="freeze" calcMode="discrete" values="0;80;160;240;320;400;480;560" keyTimes="0;.14;.28;.42;.56;.7;.84;1"/></rect></clipPath>
 <text x="410" y="166" font-size="16" clip-path="url(#c4)"><tspan fill="#22d3ee" font-weight="bold">Kernel</tspan><tspan fill="#e2e8f0">: Python 3 / Kotlin</tspan></text>
 <clipPath id="c5"><rect x="410" y="172" height="22" width="0"><animate attributeName="width" from="0" to="560" begin="1.15s" dur="0.5s" fill="freeze" calcMode="discrete" values="0;80;160;240;320;400;480;560" keyTimes="0;.14;.28;.42;.56;.7;.84;1"/></rect></clipPath>
-<text x="410" y="189" font-size="16" clip-path="url(#c5)"><tspan fill="#22d3ee" font-weight="bold">Uptime</tspan><tspan fill="#e2e8f0">: 2y 11m on GitHub</tspan></text>
+<text x="410" y="189" font-size="16" clip-path="url(#c5)"><tspan fill="#22d3ee" font-weight="bold">Uptime</tspan><tspan fill="#e2e8f0">: 3y 0m on GitHub</tspan></text>
 <clipPath id="c6"><rect x="410" y="195" height="22" width="0"><animate attributeName="width" from="0" to="560" begin="1.33s" dur="0.5s" fill="freeze" calcMode="discrete" values="0;80;160;240;320;400;480;560" keyTimes="0;.14;.28;.42;.56;.7;.84;1"/></rect></clipPath>
 <text x="410" y="212" font-size="16" clip-path="url(#c6)"><tspan fill="#22d3ee" font-weight="bold">Shell</tspan><tspan fill="#e2e8f0">: FastAPI + Android + LLMs</tspan></text>
 <clipPath id="c7"><rect x="410" y="218" height="22" width="0"><animate attributeName="width" from="0" to="560" begin="1.51s" dur="0.5s" fill="freeze" calcMode="discrete" values="0;80;160;240;320;400;480;560" keyTimes="0;.14;.28;.42;.56;.7;.84;1"/></rect></clipPath>
