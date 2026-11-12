@@ -256,6 +256,6 @@
 <rect x="819" y="240" width="13" height="16" fill="#0e0b2b"/>
 <rect x="836" y="240" width="13" height="16" fill="#0e0b2b"/>
 <rect x="853" y="240" width="13" height="16" fill="#0e0b2b"/>
-<text x="964" y="253" fill="#e2e8f0" font-size="14" text-anchor="end">4%</text>
+<text x="964" y="253" fill="#e2e8f0" font-size="14" text-anchor="end">5%</text>
 <rect width="1000" height="294" fill="url(#scan)" pointer-events="none"/>
 </svg>
