@@ -130,7 +130,7 @@
 <rect x="819" y="138" width="13" height="16" fill="#0e0b2b"/>
 <rect x="836" y="138" width="13" height="16" fill="#0e0b2b"/>
 <rect x="853" y="138" width="13" height="16" fill="#0e0b2b"/>
-<text x="964" y="151" fill="#e2e8f0" font-size="14" text-anchor="end">9%</text>
+<text x="964" y="151" fill="#e2e8f0" font-size="14" text-anchor="end">10%</text>
 <text x="36" y="185" fill="#3776ab" font-size="14" font-weight="bold">PYTHON</text>
 <rect x="190" y="172" width="13" height="16" fill="#3776ab" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.05s" begin="0.75s" fill="freeze"/></rect>
 <rect x="207" y="172" width="13" height="16" fill="#3776ab" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.05s" begin="0.77s" fill="freeze"/></rect>
